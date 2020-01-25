@@ -27,7 +27,6 @@ bool applyTransforms = true;
 Setup(context =>
 {
   cakeConsole.ForegroundColor = ConsoleColor.Yellow;
-  PrintHeader(ConsoleColor.DarkGreen);
 
   var configFile = new FilePath(configJsonFile);
   configuration = DeserializeJsonFromFile<Configuration>(configFile);
@@ -40,14 +39,14 @@ Setup(context =>
     applyTransforms = false;
   }
 
-  if (deploymentTarget == "DockerBuild")  {
-    configuration.PublishWebFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-standalone\\Data";
-    configuration.PublishDataFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-sqldev\\Data";
-    configuration.PublishxConnectFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-xconnect\\Data";
-    configuration.PublishxConnectIndexWorkerFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-xconnect-indexworker\\Data";
-    publishLocal = true;
-    syncUnicorn = false;
-  }
+  // if (deploymentTarget == "DockerBuild")  {
+  //   configuration.PublishWebFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-standalone\\Data";
+  //   configuration.PublishDataFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-sqldev\\Data";
+  //   configuration.PublishxConnectFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-xconnect\\Data";
+  //   configuration.PublishxConnectIndexWorkerFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\demo-xp-xconnect-indexworker\\Data";
+  //   publishLocal = true;
+  //   syncUnicorn = false;
+  // }
 
   if (deploymentTarget == "Docker") {
     configuration.WebsiteRoot = $"{configuration.ProjectFolder}\\data\\cm\\src\\";
@@ -55,44 +54,6 @@ Setup(context =>
     configuration.PublishxConnectIndexWorkerFolder = $"{configuration.ProjectFolder}\\data\\xconnect-indexworker\\src\\";
     configuration.InstanceUrl = "http://127.0.0.1:44001";     // This is based on the CM container's settings (see docker-compose.yml)
   }
-
-// Automatically add additional NuGet source to local feed at build time
-// Requires environment variables
-//   SYSTEM_ACCESSTOKEN:      DevOps Personal Access Token
-//   INTERNAL_NUGET_SOURCE:   feed's URL
-  var accessToken = EnvironmentVariable ("SYSTEM_ACCESSTOKEN");
-  var internalFeed = EnvironmentVariable ("INTERNAL_NUGET_SOURCE");
-
-  if (!string.IsNullOrEmpty(internalFeed)){
-    var feed = new {
-      Name = "sc-demo-packages-internal",
-      Source = internalFeed
-    };
-    if (NuGetHasSource (source: feed.Source)) {
-      Information("Removing internal NuGet feed");
-      NuGetRemoveSource (
-        name: feed.Name,
-        source: feed.Source
-      );
-    }
-    if (!string.IsNullOrEmpty(accessToken) && !usePublicFeedOnly && !string.IsNullOrEmpty(internalFeed)) {
-      // Add the authenticated feed source
-      var feedSettings = new NuGetSourcesSettings {
-      UserName = "VSTS",
-        Password = accessToken,
-        IsSensitiveSource = true
-
-      };
-      Information("Adding internal NuGet feed");
-      NuGetAddSource (
-        name: feed.Name,
-        source: feed.Source,
-        settings: feedSettings
-      );
-
-    }
-  }
-  // end automatically add NuGet feed
 });
 
 /*===============================================
@@ -105,7 +66,7 @@ Task("Base-PreBuild")
 .IsDependentOn("Modify-PublishSettings");
 
 Task("Base-Publish")
-.IsDependentOn("Publish-Core-Project")
+// .IsDependentOn("Publish-Core-Project")
 .IsDependentOn("Publish-FrontEnd-Project")
 .IsDependentOn("Apply-DotnetCore-Transforms")
 .IsDependentOn("Publish-All-Projects")
@@ -204,36 +165,36 @@ Task("Publish-Feature-Projects").Does(() => {
   PublishProjects(configuration.FeatureSrcFolder, destination);
 });
 
-Task("Publish-Core-Project").Does(() => {
-  var destination = configuration.WebsiteRoot;
+// Task("Publish-Core-Project").Does(() => {
+//   var destination = configuration.WebsiteRoot;
 
-  if (publishLocal) {
-    destination = configuration.PublishWebFolder;
-  }
-  Information("Destination: " + destination);
+//   if (publishLocal) {
+//     destination = configuration.PublishWebFolder;
+//   }
+//   Information("Destination: " + destination);
 
-  var projectFile = $"{configuration.SourceFolder}\\Build\\Build.Shared\\code\\Build.Shared.csproj";
-  var publishFolder = $"{configuration.PublishTempFolder}";
+//   var projectFile = $"{configuration.SourceFolder}\\Build\\Build.Shared\\code\\Build.Shared.csproj";
+//   var publishFolder = $"{configuration.PublishTempFolder}";
 
-  DotNetCoreMSBuildSettings buildSettings = new DotNetCoreMSBuildSettings();
-  buildSettings.SetConfiguration(configuration.BuildConfiguration);
+//   DotNetCoreMSBuildSettings buildSettings = new DotNetCoreMSBuildSettings();
+//   buildSettings.SetConfiguration(configuration.BuildConfiguration);
 
-  DotNetCoreRestoreSettings restoreSettings = new DotNetCoreRestoreSettings {
-    MSBuildSettings = buildSettings,
-    Interactive = true
-  };
+//   DotNetCoreRestoreSettings restoreSettings = new DotNetCoreRestoreSettings {
+//     MSBuildSettings = buildSettings,
+//     Interactive = true
+//   };
 
-  DotNetCoreRestore(projectFile, restoreSettings);
+//   DotNetCoreRestore(projectFile, restoreSettings);
 
-  var settings = new DotNetCorePublishSettings {
-    OutputDirectory = publishFolder,
-    Configuration = configuration.BuildConfiguration,
-    MSBuildSettings = buildSettings,
-    NoRestore = true
-  };
+//   var settings = new DotNetCorePublishSettings {
+//     OutputDirectory = publishFolder,
+//     Configuration = configuration.BuildConfiguration,
+//     MSBuildSettings = buildSettings,
+//     NoRestore = true
+//   };
 
-  DotNetCorePublish(projectFile, settings);
-});
+//   DotNetCorePublish(projectFile, settings);
+// });
 
 Task("Publish-FrontEnd-Project").Does(() => {
   var source = $"{configuration.ProjectFolder}\\FrontEnd\\**\\*";

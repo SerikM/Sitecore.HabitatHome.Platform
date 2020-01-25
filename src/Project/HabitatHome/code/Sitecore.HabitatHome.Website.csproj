@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sitecore.HabitatHome.Website</RootNamespace>
     <AssemblyName>Sitecore.HabitatHome.Website</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -69,28 +69,7 @@
         <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.4" />
       </ItemGroup>
     </When>
-    <Otherwise>
-      <ItemGroup>
-        <PackageReference Include="Sitecore.Kernel" Version="9.3.0-*">
-          <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Sitecore.Logging" Version="9.3.0-*">
-          <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Sitecore.Mvc.Analytics" Version="9.3.0-*">
-          <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Sitecore.Mvc" Version="9.3.0-*">
-          <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Sitecore.Update" Version="9.3.0-*">
-          <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Sitecore.Zip" Version="9.3.0-*">
-          <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-      </ItemGroup>
-    </Otherwise>
+    <Otherwise />
   </Choose>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -117,10 +96,10 @@
     <Content Include="App_Config\Include\Project\HabitatHome.Website.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="sitecore.habitathome.version.txt" />
     <Content Include="App_Config\Include\Project\HabitatHome.Website.Serialization.Shared.config">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -136,6 +115,35 @@
   <ItemGroup>
     <Compile Include="Controllers\EmptyContentController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc">
+      <Version>5.2.7</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.ContentSearch">
+      <Version>9.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.ContentSearch.Linq">
+      <Version>9.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Kernel">
+      <Version>9.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Logging">
+      <Version>9.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Marketing">
+      <Version>9.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Marketing.xMgmt">
+      <Version>9.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Update">
+      <Version>9.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Zip">
+      <Version>9.3.0</Version>
+    </PackageReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

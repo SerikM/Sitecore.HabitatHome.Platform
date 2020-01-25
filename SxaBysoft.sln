@@ -12,11 +12,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".configuration", ".configuration", "{25781A7E-9FF0-4FF5-9BD1-0E25BF8C2AF6}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		.env = .env
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		build.cake = build.cake
 		cake-config.json = cake-config.json
+		docker-compose.yml = docker-compose.yml
 		nuget.config = nuget.config
+		publishsettings.targets = publishsettings.targets
 		README.md = README.md
 	EndProjectSection
 EndProject

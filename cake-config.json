@@ -1,10 +1,10 @@
 {
-	"WebsiteRoot": "C:\\Inetpub\\wwwroot\\habitathome.dev.local",
-	"XConnectRoot": "C:\\Inetpub\\wwwroot\\habitathome_xconnect.dev.local\\",
-	"InstanceUrl": "https://habitathome.dev.local",
-	"SolutionName": "HabitatHome.sln",
-	"ProjectFolder": "C:\\Projects\\Sitecore.HabitatHome.Platform",
-	"UnicornSerializationFolder": "C:\\Projects\\Sitecore.HabitatHome.Platform\\items",
+	"WebsiteRoot": "C:\\Inetpub\\wwwroot\\xp1.cm",
+	"XConnectRoot": "C:\\inetpub\\wwwroot\\xp1.collection\\",
+	"InstanceUrl": "https://xp1.cm",
+	"SolutionName": "SxaBysoft.sln",
+	"ProjectFolder": "C:\\gitrepos\\SxaBysoft",
+	"UnicornSerializationFolder": "C:\\gitrepos\\SxaBysoft\\items",
 	"BuildConfiguration": "Debug",
 	"BuildToolVersions": "VS2019",
 	"RunCleanBuilds": false,
@@ -14,5 +14,5 @@
 	"PublishTempFolder": "c:\\Deploy",
 	"version": "9.3.0",
 	"CDN": "false",
-	"SitecoreAzureToolkitPath": "c:\\sat"
+	"SitecoreAzureToolkitPath": "C:\\stc\\Sitecore Azure Toolkit 2.4.0"
 }
