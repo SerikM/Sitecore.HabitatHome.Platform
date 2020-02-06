@@ -24,7 +24,7 @@ services:
   xconnect:
     image: ${REGISTRY}sitecore-xp-xconnect:${SITECORE_VERSION}-windowsservercore-${WINDOWSSERVERCORE_VERSION}
     volumes:
-      - .\data\xconnect:C:\inetpub\wwwroot\App_Data\logs
+      - .\data\xconnect\logs:C:\inetpub\wwwroot\App_Data\logs
     mem_limit: 1GB
     environment:
       SITECORE_LICENSE: ${SITECORE_LICENSE}

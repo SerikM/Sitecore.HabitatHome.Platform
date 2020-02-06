@@ -2,17 +2,19 @@
 	"WebsiteRoot": "C:\\Inetpub\\wwwroot\\xp1.cm",
 	"XConnectRoot": "C:\\inetpub\\wwwroot\\xp1.collection\\",
 	"InstanceUrl": "https://xp1.cm",
+	"UnicornSerializationFolder": "C:\\gitrepos\\SxaBysoft\\items",
 	"SolutionName": "SxaBysoft.sln",
 	"ProjectFolder": "C:\\gitrepos\\SxaBysoft",
-	"UnicornSerializationFolder": "C:\\gitrepos\\SxaBysoft\\items",
 	"BuildConfiguration": "Debug",
 	"BuildToolVersions": "VS2019",
 	"RunCleanBuilds": false,
 	"MessageStatisticsApiKey": "97CC4FC13A814081BF6961A3E2128C5B",
 	"MarketingDefinitionsApiKey": "DF7D20E837254C6FBFA2B854C295CB61",
-	"DeployExmTimeout": 60,
-	"PublishTempFolder": "c:\\Deploy",
 	"version": "9.3.0",
 	"CDN": "false",
-	"SitecoreAzureToolkitPath": "C:\\stc\\Sitecore Azure Toolkit 2.4.0"
+	"SitecoreAzureToolkitPath": "C:\\stc\\Sitecore Azure Toolkit 2.4.0",
+	"FeatureSrcFolder": "C:\\gitrepos\\SxaBysoft\\src\\Feature",
+	"ProjectSrcFolder": "C:\\gitrepos\\SxaBysoft\\src\\Project",
+	"FoundationSrcFolder": "C:\\gitrepos\\SxaBysoft\\src\\Foundation",
+	"PublishTempFolder": "C:\\deployTemp"
 }

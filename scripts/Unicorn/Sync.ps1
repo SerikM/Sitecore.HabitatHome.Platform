@@ -8,7 +8,7 @@ $ScriptPath = Split-Path $MyInvocation.MyCommand.Path
 Import-Module $ScriptPath\Unicorn.psm1
 
 # SYNC ALL CONFIGURATIONS
-Sync-Unicorn -ControlPanelUrl $url -SharedSecret $secret
+Sync-Unicorn -ControlPanelUrl $url -SharedSecret $secret -DebugSecurity
 
 # SYNC SPECIFIC CONFIGURATIONS
 # Sync-Unicorn -ControlPanelUrl 'https://localhost/unicorn.aspx' -SharedSecret 'your-sharedsecret-here' -Configurations @('Test1', 'Test2')

@@ -1,7 +1,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <publishUrl>..\..\..\..\data\cm\src</publishUrl>
-        <ExcludeFilesFromDeployment>packages.config</ExcludeFilesFromDeployment>
     </PropertyGroup>
-	
+	<Import />
 </Project>

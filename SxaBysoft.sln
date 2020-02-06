@@ -18,7 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".configuration", ".configur
 		build.cake = build.cake
 		cake-config.json = cake-config.json
 		docker-compose.yml = docker-compose.yml
-		nuget.config = nuget.config
 		publishsettings.targets = publishsettings.targets
 		README.md = README.md
 	EndProjectSection
@@ -37,9 +36,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Experience Accelerator", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.HabitatHome.Feature.ExperienceAccelerator", "src\Feature\ExperienceAccelerator\code\Sitecore.HabitatHome.Feature.ExperienceAccelerator.csproj", "{FEA9BDF2-4014-4288-99BA-D511847F6D9C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{570909EC-75B1-462F-A542-1345CFD15FB9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{A26572B7-F17A-4A47-A3E4-C1B8EB488BD4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build.Shared", "src\Build\Build.Shared\code\Build.Shared.csproj", "{4014608D-A0FE-4802-B5C5-08280C2ECF98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "src\Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{7B38EE06-92DA-4E4C-A09F-BA069AEC7026}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,16 +91,16 @@ Global
 		{FEA9BDF2-4014-4288-99BA-D511847F6D9C}.Package-CM|Any CPU.Build.0 = Package-CM|Any CPU
 		{FEA9BDF2-4014-4288-99BA-D511847F6D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA9BDF2-4014-4288-99BA-D511847F6D9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Local|Any CPU.Build.0 = Local|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Package-CD|Any CPU.ActiveCfg = Package-CD|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Package-CD|Any CPU.Build.0 = Package-CD|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Package-CM|Any CPU.ActiveCfg = Package-CM|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Package-CM|Any CPU.Build.0 = Package-CM|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Local|Any CPU.Build.0 = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Package-CD|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Package-CD|Any CPU.Build.0 = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Package-CM|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Package-CM|Any CPU.Build.0 = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,10 +114,11 @@ Global
 		{73A57FBE-7088-4344-87DC-23B01B504EC9} = {85186717-7A62-48A7-869B-C47DF85B6273}
 		{8404CBD0-F0F1-406A-82CA-5F8468764872} = {37394D96-A276-41B7-BFC0-E0897AFE4690}
 		{FEA9BDF2-4014-4288-99BA-D511847F6D9C} = {8404CBD0-F0F1-406A-82CA-5F8468764872}
-		{4014608D-A0FE-4802-B5C5-08280C2ECF98} = {570909EC-75B1-462F-A542-1345CFD15FB9}
+		{2B8ABC67-8B6C-41FB-8800-6AB017A3C1F7} = {7B38EE06-92DA-4E4C-A09F-BA069AEC7026}
+		{7B38EE06-92DA-4E4C-A09F-BA069AEC7026} = {A26572B7-F17A-4A47-A3E4-C1B8EB488BD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {25D35D77-3A23-45B8-BF1A-F9EB5B3B318F}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
