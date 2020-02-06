@@ -1,0 +1,14 @@
+﻿---
+ID: "76461e6c-84f5-40ce-b64e-9d6745b1a3f0"
+Parent: "d3c92429-69e3-4688-9196-e2252665f701"
+Template: "8d84f263-a22a-4967-9cce-cc12407e05fc"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Flips
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200206T025926Z

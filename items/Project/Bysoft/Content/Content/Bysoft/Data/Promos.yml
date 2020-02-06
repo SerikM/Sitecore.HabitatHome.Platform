@@ -1,0 +1,14 @@
+﻿---
+ID: "b8c719fb-74ec-4681-ac9a-b112f65f0e89"
+Parent: "d3c92429-69e3-4688-9196-e2252665f701"
+Template: "f07cbe89-73ae-4de6-9217-2570260cac6e"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Promos
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200206T030221Z

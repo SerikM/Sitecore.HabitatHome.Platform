@@ -1,0 +1,14 @@
+﻿---
+ID: "c5e78598-6675-4298-82e7-599bfeff5c86"
+Parent: "d3c92429-69e3-4688-9196-e2252665f701"
+Template: "68c00cb0-320b-4324-903a-f6ad56a2a105"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Accordions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200206T025922Z

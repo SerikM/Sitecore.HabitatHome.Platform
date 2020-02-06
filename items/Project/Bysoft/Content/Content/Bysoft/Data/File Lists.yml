@@ -1,0 +1,14 @@
+﻿---
+ID: "a2d927be-c074-4feb-95f0-002d7378fefe"
+Parent: "d3c92429-69e3-4688-9196-e2252665f701"
+Template: "c959e8ef-cd42-4967-83f6-bee092c0beae"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/File Lists
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200206T030050Z

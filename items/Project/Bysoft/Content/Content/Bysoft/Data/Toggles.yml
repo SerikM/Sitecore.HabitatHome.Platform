@@ -1,0 +1,14 @@
+﻿---
+ID: "cf03ba89-78c4-43ad-bde5-7bf42af177fe"
+Parent: "d3c92429-69e3-4688-9196-e2252665f701"
+Template: "8178b44e-b2bb-4635-85ba-b807ce420858"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Toggles
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200206T030233Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "8c9e713f-3d6e-44dc-ab8a-294b27fe6427"
+Parent: "8e1ca0b8-5a9a-4353-980b-343391fe64f7"
+Template: "70461699-48e4-45fa-b74b-0cce849fca6a"
+Path: /sitecore/content/Main Tenant/Bysoft/Settings/Maps Provider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200206T030000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

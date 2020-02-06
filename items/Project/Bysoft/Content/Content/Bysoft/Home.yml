@@ -1,0 +1,25 @@
+﻿---
+ID: "5bbf7204-600f-42b2-af9e-a4bb207f2061"
+Parent: "88321eab-1e87-4d57-8579-d7ac97ce3920"
+Template: "3d06593e-f6e6-4655-92ab-ff3f898ac60b"
+Path: /sitecore/content/Main Tenant/Bysoft/Home
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200206T025740Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bysoft
+    - ID: "9e401239-ebde-4a45-801b-736bb2f39401"
+      Hint: Title
+      Value: Bysoft
