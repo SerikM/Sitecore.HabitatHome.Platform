@@ -1,0 +1,19 @@
+﻿---
+ID: "f08e7ff7-5754-4be7-8064-1fd09145110d"
+Parent: "737732c0-7a3d-4929-844a-a2077918c05f"
+Template: "9d46c5c3-aaee-46aa-b406-a1806302116e"
+Path: /sitecore/content/Main Tenant/Global/Data/Search/Dropdown Filter
+DB: master
+BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AE5CC139-C6CA-4BFA-865B-445FE691DA3A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T131155Z

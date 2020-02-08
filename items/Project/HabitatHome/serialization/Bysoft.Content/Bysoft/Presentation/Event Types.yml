@@ -1,0 +1,14 @@
+﻿---
+ID: "84862fcd-442f-4010-b12f-cbb5d3498548"
+Parent: "12309cbc-9f28-49c8-88a9-69bba6c4e6af"
+Template: "fd612519-1c44-48b7-a44a-d582e22c38dd"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Event Types
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125617Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "ef6d1f1d-a73c-4a78-a6f4-4df8db65e6e4"
+Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+Template: "89895ed9-f3bb-4296-a9b7-c87b7770cdd3"
+Path: /sitecore/content/Main Tenant/Global/Data/Pagination
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T131010Z

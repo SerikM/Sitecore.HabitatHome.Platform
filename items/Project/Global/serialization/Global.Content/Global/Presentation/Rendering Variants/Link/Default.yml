@@ -1,0 +1,19 @@
+﻿---
+ID: "f2874552-c76a-43d5-a581-1af3e56821c4"
+Parent: "ce7f32c5-efa8-4273-9062-77c641fdb1e0"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Link/Default
+DB: master
+BranchID: "4d660f84-930a-437f-9457-e9c4cd8f674c"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{D9F3C5DF-05F7-48EE-AD81-53956BDFA605}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T131000Z

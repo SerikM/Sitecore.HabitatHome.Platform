@@ -1,0 +1,14 @@
+﻿---
+ID: "1e822c5c-f0c0-44b6-9649-6aa8a9923d08"
+Parent: "1e90192e-3795-4596-a3ab-92bab1a87712"
+Template: "df608f99-aaa5-428d-a4ef-ca92e5f291d3"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Flashes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125651Z

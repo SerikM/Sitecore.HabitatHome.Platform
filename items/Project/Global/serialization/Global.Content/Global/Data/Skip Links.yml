@@ -1,0 +1,14 @@
+﻿---
+ID: "8cec029a-49c8-480e-aecc-12318a1e50b7"
+Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+Template: "1dc97094-8357-4335-8df5-3349193b1e02"
+Path: /sitecore/content/Main Tenant/Global/Data/Skip Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T130740Z

@@ -1,0 +1,19 @@
+﻿---
+ID: "2a8e3db0-bfab-4739-a930-6d70fdaf0889"
+Parent: "7b2a2776-9be0-4363-9c78-1aed95993ecf"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Styles/Content Alignment
+DB: master
+BranchID: "5edf676a-2fdd-418a-8c56-cb465ee16e20"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C29CA95D-6B94-4214-A90A-AB34E713D053}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125515Z

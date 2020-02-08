@@ -1,0 +1,14 @@
+﻿---
+ID: "ca9823f0-54fa-4cf5-a6f3-1680342570a0"
+Parent: "1e90192e-3795-4596-a3ab-92bab1a87712"
+Template: "25a6b824-672f-4c15-9b98-0b231c80f81c"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Tags
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125939Z

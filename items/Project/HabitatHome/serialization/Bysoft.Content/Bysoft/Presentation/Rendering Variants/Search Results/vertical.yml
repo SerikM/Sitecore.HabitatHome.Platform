@@ -1,0 +1,22 @@
+﻿---
+ID: "1a94f905-e0d4-44af-a7fa-dbe8e988a067"
+Parent: "f16d50f7-6c00-4ebf-8a02-bfce0a45dfee"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Rendering Variants/Search Results/vertical
+DB: master
+BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
+SharedFields:
+- ID: "e1d5adba-8348-4127-9bb6-455936653839"
+  Hint: CssClass
+  Value: vertical
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{05ED7B72-651E-4951-8EC8-0CD9045728B0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T130043Z

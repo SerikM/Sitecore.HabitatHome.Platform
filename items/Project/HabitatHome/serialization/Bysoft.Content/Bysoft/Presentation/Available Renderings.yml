@@ -1,0 +1,14 @@
+﻿---
+ID: "dcefb29f-1401-4b63-af5d-b0d94f9577bc"
+Parent: "12309cbc-9f28-49c8-88a9-69bba6c4e6af"
+Template: "39a9ed72-407d-4440-ba50-30956834794e"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Available Renderings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125401Z

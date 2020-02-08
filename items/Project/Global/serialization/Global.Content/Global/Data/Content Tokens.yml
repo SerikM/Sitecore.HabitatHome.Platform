@@ -1,0 +1,14 @@
+﻿---
+ID: "322eb7e8-297c-47c9-a912-632933a5e065"
+Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+Template: "29252703-d448-451c-bf1e-65b16174f4b0"
+Path: /sitecore/content/Main Tenant/Global/Data/Content Tokens
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T130541Z

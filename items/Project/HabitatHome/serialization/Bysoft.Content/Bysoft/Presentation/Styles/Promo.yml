@@ -1,0 +1,22 @@
+﻿---
+ID: "238342c3-2f5e-4294-82dd-04c598277c46"
+Parent: "7b2a2776-9be0-4363-9c78-1aed95993ecf"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Styles/Promo
+DB: master
+BranchID: "5edf676a-2fdd-418a-8c56-cb465ee16e20"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 162
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9616B989-A9B9-49D9-B16D-008C43028441}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125530Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "beafc42e-b538-4902-b776-459128221f62"
+Parent: "7bc80a29-4e95-4c20-81b8-a6203b748430"
+Template: "fd612519-1c44-48b7-a44a-d582e22c38dd"
+Path: /sitecore/content/Main Tenant/Global/Presentation/Event Types
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T130830Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "c6279a62-5e1f-402c-8760-c2c4a69e43c8"
+Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+Template: "33077d51-ebad-4d1c-b4a8-3b79f51dba13"
+Path: /sitecore/content/Main Tenant/Global/Data/Security
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T131121Z

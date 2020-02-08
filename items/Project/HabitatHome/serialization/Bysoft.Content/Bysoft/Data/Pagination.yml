@@ -1,0 +1,14 @@
+﻿---
+ID: "2035be1b-8a0f-4fd4-8938-4cd81f47cc5a"
+Parent: "1e90192e-3795-4596-a3ab-92bab1a87712"
+Template: "89895ed9-f3bb-4296-a9b7-c87b7770cdd3"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Pagination
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125824Z

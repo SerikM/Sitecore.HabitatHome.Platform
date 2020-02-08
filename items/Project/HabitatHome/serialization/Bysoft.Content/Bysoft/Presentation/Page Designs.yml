@@ -1,0 +1,26 @@
+﻿---
+ID: "f6a47fd5-aa46-4fb6-8fb2-48c6de9b2423"
+Parent: "12309cbc-9f28-49c8-88a9-69bba6c4e6af"
+Template: "dddfcefb-1586-4dcc-a905-00ee6c10cbbf"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Page Designs
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b53C219F1-0E88-4595-9AB7-9454906D9432%7d%3d%257BB882EF9C-C58E-458C-BA80-CE750B2467EB%257D%26%7b33355180-C4EB-4FB4-B859-8C158CEDCA80%7d%3d%257BB882EF9C-C58E-458C-BA80-CE750B2467EB%257D"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5D5CE43E-D5C6-4C53-89BC-36285DDE8EC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,19 @@
+﻿---
+ID: "06ff6a8e-f9c9-4715-b184-36756317d71c"
+Parent: "12309cbc-9f28-49c8-88a9-69bba6c4e6af"
+Template: "c5f0461d-0688-444a-944d-9aa2b769cfed"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Partial Designs
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1DA4DAC3-7948-407B-A30D-D369913CF4F9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T125336Z

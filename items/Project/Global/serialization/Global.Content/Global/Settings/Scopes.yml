@@ -1,0 +1,14 @@
+﻿---
+ID: "9eda88db-a11e-4b84-be2e-61d18f23c6f1"
+Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+Template: "44936c95-bca9-4fb3-9d98-2066a5fbbb4d"
+Path: /sitecore/content/Main Tenant/Global/Settings/Scopes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T131116Z
