@@ -1,0 +1,18 @@
+﻿---
+ID: "b2314f1d-84fb-41c3-b5bc-5d6e345ba321"
+Parent: "8d5ac11c-c184-4f02-a57d-b1fc705dc1d9"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/Main Tenant/Hero
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141631Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

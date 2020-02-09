@@ -1,0 +1,13 @@
+﻿---
+ID: "2fbeb7ce-4d30-4d99-b3fa-b568e89a8bff"
+Parent: "96c91b12-e59a-4b22-80d5-febfb60c52fc"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/Main Tenant/Bysoft
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20200209T142444:637168550848913188Z"
