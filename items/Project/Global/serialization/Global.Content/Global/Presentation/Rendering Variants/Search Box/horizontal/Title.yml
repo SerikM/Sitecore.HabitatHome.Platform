@@ -1,6 +1,6 @@
 ﻿---
-ID: "cc9a842c-1dae-4212-89c9-2ad51c700b02"
-Parent: "a8607389-3c2d-43d9-b7e7-80e3601a44fe"
+ID: "6cc8b220-f0e8-4813-a6d1-ae2c585be17a"
+Parent: "5a00c160-3c13-478a-bada-41f4bf45424b"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Search Box/horizontal/Title
 DB: master
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131208Z
+      Value: 20200209T111419Z

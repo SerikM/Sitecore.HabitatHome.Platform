@@ -1,6 +1,6 @@
 ﻿---
-ID: "2eaff3ff-cc0e-4ddd-9021-65a86cec8cd3"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "7a14a857-e18a-458b-b3f4-a9562ba357d4"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "8ca8b80d-a1ad-4b45-9f08-8839357e71d4"
 Path: /sitecore/content/Main Tenant/Global/Data/POIs
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130835Z
+      Value: 20200209T111317Z

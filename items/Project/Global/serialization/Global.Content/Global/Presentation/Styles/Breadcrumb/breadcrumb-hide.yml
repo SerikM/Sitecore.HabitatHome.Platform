@@ -1,6 +1,6 @@
 ﻿---
-ID: "ff261794-e858-452d-8893-a7948267b204"
-Parent: "e2c2b623-5c51-43df-86f9-831812e541df"
+ID: "9ffe6cf1-a589-4e1f-a08c-d9bf49c65a16"
+Parent: "9ffa2357-ac4a-4661-84c1-6441946d2726"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Breadcrumb/breadcrumb-hide"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130632Z
+      Value: 20200209T111256Z

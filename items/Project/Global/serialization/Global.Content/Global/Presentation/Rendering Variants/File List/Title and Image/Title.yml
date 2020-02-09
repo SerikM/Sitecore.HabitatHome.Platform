@@ -1,6 +1,6 @@
 ﻿---
-ID: "adf1700f-462a-4c9c-aea6-5af734a037f9"
-Parent: "9315f123-2209-447e-83b0-5f0f471653ee"
+ID: "9a6e644f-78ec-41b0-979d-19b2802946d0"
+Parent: "6e688239-c803-4906-b78b-4c789562340d"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/File List/Title and Image/Title
 DB: master
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130918Z
+      Value: 20200209T111332Z

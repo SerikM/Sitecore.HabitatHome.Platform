@@ -1,6 +1,6 @@
 ﻿---
-ID: "25479e84-9f37-43be-b19c-f107f090fafb"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "f5888ced-83fc-438a-8d36-079a6628bfdc"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "9c2d0fdf-4daf-4494-bde7-f857f1924825"
 Path: /sitecore/content/Main Tenant/Global/Data/Navigation Filters
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130951Z
+      Value: 20200209T111341Z

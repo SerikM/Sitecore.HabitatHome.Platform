@@ -1,6 +1,6 @@
 ﻿---
-ID: "d7bed4e4-e257-4678-b9b0-c4c10c3f710a"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "33369bd6-918e-4390-9377-cede3bc94956"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "35abcb7f-dd86-483d-abe1-41c93c3aa7d9"
 Path: /sitecore/content/Main Tenant/Global/Settings/HTML Snippets
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130828Z
+      Value: 20200209T111315Z

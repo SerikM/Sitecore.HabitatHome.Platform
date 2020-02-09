@@ -1,6 +1,6 @@
 ﻿---
-ID: "18eecac1-0197-4890-95cf-dd5fb60382fb"
-Parent: "9a1a6dca-d37e-44f8-be71-15ebda04499c"
+ID: "b150332a-5511-4acd-9dbd-6fb66b65ee9f"
+Parent: "d82da0d2-8c9c-4da2-8e1a-ea45e6d876e3"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Promo/Promo Shadow
 DB: master
@@ -27,7 +27,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130646Z
+      Value: 20200209T111259Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

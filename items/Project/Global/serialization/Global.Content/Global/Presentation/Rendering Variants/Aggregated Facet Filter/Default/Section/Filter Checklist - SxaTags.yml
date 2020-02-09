@@ -1,6 +1,6 @@
 ﻿---
-ID: "9ca33755-0749-44ab-a989-ea05005552df"
-Parent: "04e4c214-f83d-4d85-9b2f-871e3c5d197a"
+ID: "382111b6-1f0d-46c4-a8db-e752778d3995"
+Parent: "4eaaebc0-a61c-448a-af96-b95f206f95ad"
 Template: "1151b2a9-08af-4f4d-a892-c2cc9a92ea6a"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Aggregated Facet Filter/Default/Section/Filter Checklist - SxaTags"
 DB: master
@@ -25,7 +25,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131205Z
+      Value: 20200209T111418Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

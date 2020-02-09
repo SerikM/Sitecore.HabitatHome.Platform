@@ -1,6 +1,6 @@
 ﻿---
-ID: "c0625814-9de7-4152-9c87-2077a3bb037a"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "f67d4828-a65a-4575-b72f-4942d183d4fa"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "041c1f9f-99a4-4ee6-8308-985499f91032"
 Path: /sitecore/content/Main Tenant/Global/Data/Twitters
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131136Z
+      Value: 20200209T111408Z

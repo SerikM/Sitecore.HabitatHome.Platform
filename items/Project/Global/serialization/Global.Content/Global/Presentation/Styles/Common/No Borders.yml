@@ -1,6 +1,6 @@
 ﻿---
-ID: "3cdf2053-6a30-4322-a813-86696578997e"
-Parent: "d8b963dd-ca7f-4a5f-a5db-53c8cb0390cc"
+ID: "de718ed1-d008-4858-b7c2-f630fa2c786b"
+Parent: "e2faf8f3-94c5-47c6-be55-9b1e33ee25ef"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Common/No Borders
 DB: master
@@ -35,4 +35,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130626Z
+      Value: 20200209T111255Z

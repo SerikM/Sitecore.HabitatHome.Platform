@@ -1,6 +1,6 @@
 ﻿---
-ID: "e56a6bae-c563-4d86-a729-ab2d0480c243"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "1429c4c2-374f-469a-bfc0-c95e8c5d3040"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "11f57d7b-cbb2-4647-b98c-71457564ba4f"
 Path: /sitecore/content/Main Tenant/Global/Settings/Site Grouping
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130537Z
+      Value: 20200209T111240Z

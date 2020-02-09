@@ -1,6 +1,6 @@
 ﻿---
-ID: "8963f46d-5140-4cfd-9ced-c38fd8f02377"
-Parent: "fc7e02ca-267e-43a5-b6d3-399aa435bf99"
+ID: "fbec73b5-edd8-419f-ab1d-9cf56d62e0d5"
+Parent: "ae1e439a-cbd8-4622-a569-5ac7cfac65b9"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Rich Text/Custom list indicators
 DB: master
@@ -31,4 +31,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130643Z
+      Value: 20200209T111259Z

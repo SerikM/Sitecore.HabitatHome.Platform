@@ -1,6 +1,6 @@
 ﻿---
-ID: "04e4c214-f83d-4d85-9b2f-871e3c5d197a"
-Parent: "82d4935f-ca13-4f4f-917a-059b9ea24ffd"
+ID: "4eaaebc0-a61c-448a-af96-b95f206f95ad"
+Parent: "545e6f4d-75a3-4ed9-a617-cf52ef2a1a05"
 Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Aggregated Facet Filter/Default/Section
 DB: master
@@ -19,4 +19,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131205Z
+      Value: 20200209T111418Z

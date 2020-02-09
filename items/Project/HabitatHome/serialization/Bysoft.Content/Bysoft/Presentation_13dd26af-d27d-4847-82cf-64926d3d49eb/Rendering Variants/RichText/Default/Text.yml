@@ -1,0 +1,25 @@
+﻿---
+ID: "017f38d1-f6cc-4dbd-8f98-1be0ab413d26"
+Parent: "7665e525-a398-43b9-be03-4a41957a1914"
+Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Rendering Variants/RichText/Default/Text
+DB: master
+BranchID: "e4acb01a-2a91-4200-b9ce-205b2a5aa488"
+SharedFields:
+- ID: "4753764c-c05a-4623-841b-97f85135241c"
+  Hint: FieldName
+  Value: Text
+- ID: "db805bdc-8eec-4238-b174-2427b6f1f077"
+  Hint: Tag
+  Value: 
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BA3EE58F-0361-4D6D-B35C-0AEE73A39FC7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T111118Z

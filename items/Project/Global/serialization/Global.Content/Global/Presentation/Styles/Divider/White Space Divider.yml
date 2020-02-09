@@ -1,6 +1,6 @@
 ﻿---
-ID: "921f4f99-4947-4491-8012-c9a6f68cc320"
-Parent: "1766cac2-fc4b-4ccb-ba88-1c42c13f9b57"
+ID: "bb963b0c-d8b0-4cd2-beb6-7aaa6a12f786"
+Parent: "04a6be81-402e-46de-8f31-5f4a238dc695"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Divider/White Space Divider
 DB: master
@@ -27,7 +27,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130635Z
+      Value: 20200209T111257Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

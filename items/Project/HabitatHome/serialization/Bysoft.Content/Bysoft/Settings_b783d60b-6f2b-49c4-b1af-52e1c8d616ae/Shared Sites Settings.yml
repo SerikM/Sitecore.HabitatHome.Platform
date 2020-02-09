@@ -1,0 +1,18 @@
+﻿---
+ID: "a0e840f2-f883-47da-837e-59dedf6cb997"
+Parent: "b783d60b-6f2b-49c4-b1af-52e1c8d616ae"
+Template: "18d0bd79-7da4-4c2a-a924-b93a2b99d669"
+Path: /sitecore/content/Main Tenant/Bysoft/Settings/Shared Sites Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T110943Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

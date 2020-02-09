@@ -1,6 +1,6 @@
 ﻿---
-ID: "148249d9-3bca-4d4a-b3c7-d3e74059020a"
-Parent: "9ab372ef-83e8-4e82-9ac9-6b81ba190768"
+ID: "4e76632f-1006-42b4-b582-4f372201ee68"
+Parent: "c7d78d7d-521c-41c1-b023-230806efaf15"
 Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description"
 DB: master
@@ -19,4 +19,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130934Z
+      Value: 20200209T111336Z

@@ -1,6 +1,6 @@
 ﻿---
-ID: "a1fec518-9223-420f-a2eb-9f629ea17d3a"
-Parent: "2c952d7e-08ea-4226-abab-e1be6059e9c1"
+ID: "a0f79db4-331a-4a27-b858-27c172e572e1"
+Parent: "4251c328-d8ed-4757-8f3a-317247d6379b"
 Template: "efafbbf5-01a0-46d3-9f7b-e71763e7f221"
 Path: /sitecore/content/Main Tenant/Global/Settings/Social Media Groups/Default
 DB: master
@@ -16,7 +16,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131134Z
+      Value: 20200209T111408Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

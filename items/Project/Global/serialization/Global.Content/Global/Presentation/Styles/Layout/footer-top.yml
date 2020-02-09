@@ -1,6 +1,6 @@
 ﻿---
-ID: "a32e9b24-d84a-4f86-9ce1-035b92ffb67b"
-Parent: "f05722db-0871-4724-915e-76177fc10e8b"
+ID: "cbfea572-d36c-4255-b748-bbe7db6cd709"
+Parent: "bf439bb5-2d93-4e76-9b9d-15367af60c3a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Layout/footer-top"
 DB: master
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130641Z
+      Value: 20200209T111258Z

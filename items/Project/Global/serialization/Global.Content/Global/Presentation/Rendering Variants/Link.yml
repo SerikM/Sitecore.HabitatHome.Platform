@@ -1,6 +1,6 @@
 ﻿---
-ID: "ce7f32c5-efa8-4273-9062-77c641fdb1e0"
-Parent: "801a663a-c952-40f0-b0de-9d251a87e33c"
+ID: "bb4398fc-0aa7-4571-9b14-13af98401432"
+Parent: "aa5a7a66-fe5f-41d5-a825-e52a63d431cc"
 Template: "e1a3b30c-77bc-4f6c-a008-d01b3371235d"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Link
 DB: master
@@ -19,4 +19,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131000Z
+      Value: 20200209T111344Z

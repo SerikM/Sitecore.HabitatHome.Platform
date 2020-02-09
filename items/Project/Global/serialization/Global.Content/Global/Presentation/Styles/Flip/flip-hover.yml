@@ -1,6 +1,6 @@
 ﻿---
-ID: "449d63c3-a81a-49b0-a37c-8fe11c1b20c6"
-Parent: "4f3878ee-b42c-4ea1-975b-fc5d1738d542"
+ID: "bc7a1c05-6366-4c95-9086-b4abd9b1285e"
+Parent: "00e156bb-dcb3-4933-ad7f-0b0307b32f76"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Flip/flip-hover"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130636Z
+      Value: 20200209T111257Z

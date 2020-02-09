@@ -1,6 +1,6 @@
 ﻿---
-ID: "a539f3ef-b82a-4c20-aa61-4faecec3abab"
-Parent: "7bc80a29-4e95-4c20-81b8-a6203b748430"
+ID: "3880d660-1dd3-4711-8037-7dbb518e3d4f"
+Parent: "42b0abb9-a749-4dc6-8323-056334f41689"
 Template: "26fce9bf-0256-458d-8281-a713a5bf5520"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Cache Settings
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130557Z
+      Value: 20200209T111249Z

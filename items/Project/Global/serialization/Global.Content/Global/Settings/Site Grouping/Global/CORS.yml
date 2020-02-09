@@ -1,6 +1,6 @@
 ﻿---
-ID: "bc76e161-96e1-47cd-9407-9a81431a396e"
-Parent: "f10719ec-1858-48e6-b792-63c272a0cf22"
+ID: "6285e604-38cd-40f8-b515-a74e9fc608a5"
+Parent: "d7d1c868-b7c6-45f3-9221-d02d049881f2"
 Template: "3d55c326-3353-48cd-bedc-e8ae0cb9ef4d"
 Path: /sitecore/content/Main Tenant/Global/Settings/Site Grouping/Global/CORS
 DB: master
@@ -16,7 +16,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130841Z
+      Value: 20200209T111320Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -1,6 +1,6 @@
 ﻿---
-ID: "8f267553-7670-4cd8-bc14-0492a221f983"
-Parent: "54f44cd0-077a-41b0-9be4-887083f09e93"
+ID: "d32003be-1610-44f1-93b0-729d1e8448f2"
+Parent: "1c9517c9-900c-40ef-8e90-99c7047bc2f3"
 Template: "0a2847e6-9885-450b-b61e-f9e6528480ef"
 Path: /sitecore/content/Main Tenant/Bysoft/Bysoft Dictionary
 DB: master
@@ -26,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T125335Z
+      Value: 20200209T065652Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

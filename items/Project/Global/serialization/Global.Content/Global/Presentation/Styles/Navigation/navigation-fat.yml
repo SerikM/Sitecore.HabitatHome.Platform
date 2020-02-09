@@ -1,6 +1,6 @@
 ﻿---
-ID: "f0d788c3-f97c-4deb-af5d-63ab0236ccac"
-Parent: "2e43505c-bc9a-44ac-b53d-cafdbdbb7e96"
+ID: "ef18adc9-50e4-44ed-85db-7bf3f9d90450"
+Parent: "b25231f1-3fec-4131-9e99-1c2beba5601d"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Navigation/navigation-fat"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130645Z
+      Value: 20200209T111259Z

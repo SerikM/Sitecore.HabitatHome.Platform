@@ -1,6 +1,6 @@
 ﻿---
-ID: "e395f640-0fd3-4f17-b745-0ab994d8ad0d"
-Parent: "285d9236-bdf0-4018-8805-d2ce98c75a37"
+ID: "a0442218-bf53-459f-b4ad-047d19e0ef70"
+Parent: "728c1341-62b8-416c-934f-3d7d3e1b8f49"
 Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
 Path: /sitecore/templates/Branches/Project/Main Tenant/Bysoft
 DB: master
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T133344Z
+      Value: 20200209T112208Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -1,6 +1,6 @@
 ﻿---
-ID: "6fd6edf0-d613-4925-a222-b721e2294fb7"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "3a5333e5-a56e-48a3-8973-0d1817eb8870"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "0d792404-79aa-483d-bb0c-50785f2e295b"
 Path: /sitecore/content/Main Tenant/Global/Settings/Creative Exchange Storages
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130543Z
+      Value: 20200209T111242Z

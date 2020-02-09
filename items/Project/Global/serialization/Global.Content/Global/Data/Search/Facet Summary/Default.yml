@@ -1,6 +1,6 @@
 ﻿---
-ID: "b912aa00-bb6a-4923-9922-a470a1c910eb"
-Parent: "335d5829-565f-477f-acc5-8b72c7bc32d8"
+ID: "31df1547-6a7e-4c00-b093-d6001693fe81"
+Parent: "ee3a8c74-8aed-4b04-924b-066dddd85f22"
 Template: "d829066a-f9d9-4507-a922-a3f6058dbb73"
 Path: /sitecore/content/Main Tenant/Global/Data/Search/Facet Summary/Default
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131156Z
+      Value: 20200209T111416Z

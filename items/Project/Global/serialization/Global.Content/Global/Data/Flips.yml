@@ -1,6 +1,6 @@
 ﻿---
-ID: "308c5bb9-2a16-40f7-bf4e-0a62fdd32ae9"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "805178d6-7e73-4b41-9610-2234915a43ed"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "8d84f263-a22a-4967-9cce-cc12407e05fc"
 Path: /sitecore/content/Main Tenant/Global/Data/Flips
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130750Z
+      Value: 20200209T111305Z

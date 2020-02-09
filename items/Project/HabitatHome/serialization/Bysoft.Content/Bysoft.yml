@@ -1,7 +1,7 @@
 ﻿---
-ID: "54f44cd0-077a-41b0-9be4-887083f09e93"
-Parent: "0dc594bb-b938-45bc-b669-2b111a6c83bc"
-Template: "238ab044-5342-4967-99c3-87a597e18acd"
+ID: "d82e9370-44e8-407b-a153-93f43cb13f6c"
+Parent: "06da7d81-cc48-4c24-8f76-b3d851201b9c"
+Template: "563ef1ad-4b0b-4bae-9267-aeb4f2b959f6"
 Path: /sitecore/content/Main Tenant/Bysoft
 DB: master
 BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
@@ -49,13 +49,13 @@ SharedFields:
     {46D0AA2D-2804-4ECA-92B2-956D623EE44C}
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
-  Value: "{DB59662B-682B-4009-B05A-9E455FD00404}"
+  Value: "{2EE23201-C1A5-4404-B581-50747A1B3C98}"
 - ID: "bd094adf-1e7f-4f1b-8300-8d8248ed4600"
   Hint: FormsFolderLocation
-  Value: "{B7973D5F-E948-4993-94B1-12E2635B5883}"
+  Value: "{7064EB30-F1A7-40C3-8D17-6FC05A4171F9}"
 - ID: "d7264a2b-e343-4613-a71a-1727f50dbc15"
   Hint: ThemesFolder
-  Value: "{1FE5625C-A67D-4881-A745-7E994EC90EB8}"
+  Value: "{EA30B3E7-0072-414C-9B02-480F0B2E80E2}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{DAD74961-1A72-490F-A0E6-D501635F0A79}"
@@ -66,4 +66,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T125334Z
+      Value: 20200209T110936Z

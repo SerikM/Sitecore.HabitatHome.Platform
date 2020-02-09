@@ -1,0 +1,19 @@
+﻿---
+ID: "c481d5a6-db3c-4c9a-ae92-655c76813654"
+Parent: "7a5a344f-2c8f-4d6a-9fd8-1e05df1dc222"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Rendering Variants/POI/Default
+DB: master
+BranchID: "0f31020c-79af-47c9-b8e6-c98720ae8a13"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{09180CD8-3CA2-4A92-B3B5-F4F057BA465C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T111018Z

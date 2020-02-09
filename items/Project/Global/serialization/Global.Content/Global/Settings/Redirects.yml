@@ -1,6 +1,6 @@
 ﻿---
-ID: "a50c863b-01c5-4728-a790-8bfe6383ecd7"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "a64f34c1-d5be-46cb-9007-a56dd518f080"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "e1cf805e-7f49-4ec9-a25a-182dc798cb5f"
 Path: /sitecore/content/Main Tenant/Global/Settings/Redirects
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130548Z
+      Value: 20200209T111244Z

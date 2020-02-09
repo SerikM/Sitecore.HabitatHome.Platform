@@ -1,6 +1,6 @@
 ﻿---
-ID: "d3d746d2-ae29-46b5-bcc1-9bca43367a9e"
-Parent: "801a663a-c952-40f0-b0de-9d251a87e33c"
+ID: "97e39391-6939-45bf-ba29-d9e962ad649e"
+Parent: "aa5a7a66-fe5f-41d5-a825-e52a63d431cc"
 Template: "e1a3b30c-77bc-4f6c-a008-d01b3371235d"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Event List
 DB: master
@@ -19,4 +19,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130818Z
+      Value: 20200209T111310Z

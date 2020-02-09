@@ -1,6 +1,6 @@
 ﻿---
-ID: "de7dd158-be12-4a13-8128-123e78d67263"
-Parent: "d8b963dd-ca7f-4a5f-a5db-53c8cb0390cc"
+ID: "ead48f4c-ff85-461c-a1b6-a98c3e911166"
+Parent: "e2faf8f3-94c5-47c6-be55-9b1e33ee25ef"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Common/Button Link
 DB: master
@@ -33,4 +33,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130630Z
+      Value: 20200209T111256Z

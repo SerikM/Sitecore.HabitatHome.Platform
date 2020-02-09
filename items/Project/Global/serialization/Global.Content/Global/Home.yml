@@ -1,7 +1,7 @@
 ﻿---
-ID: "840478dc-e679-4c1a-8ae9-8668b4df55df"
-Parent: "5e0508ba-f19f-4f7a-882c-63b6ed7a3b1f"
-Template: "53c219f1-0e88-4595-9ab7-9454906d9432"
+ID: "839b08b4-e339-44b7-907b-6425ef76566f"
+Parent: "dc8ca951-fa3f-4aa9-b3ec-27b72c0a0ee0"
+Template: "84719ab0-9f78-42c7-8896-1c9064a1f88a"
 Path: /sitecore/content/Main Tenant/Global/Home
 DB: master
 BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
@@ -16,10 +16,10 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130535Z
-    - ID: "3188854b-1344-4ebb-ae9e-067c91595426"
-      Hint: Title
-      Value: Global
+      Value: 20200209T111240Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
+      Value: Global
+    - ID: "b933a0c7-49f2-4edd-ab91-f31fc90507be"
+      Hint: Title
       Value: Global

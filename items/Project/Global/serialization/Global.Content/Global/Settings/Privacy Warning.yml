@@ -1,6 +1,6 @@
 ﻿---
-ID: "d32266da-7109-4bbe-aaf1-2dc514e7c322"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "13b7c24e-e67c-4b36-90b3-dcf553be67b7"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "dc66d5da-3216-48e6-ae78-bac8445b6a46"
 Path: /sitecore/content/Main Tenant/Global/Settings/Privacy Warning
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130743Z
+      Value: 20200209T111302Z

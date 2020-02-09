@@ -1,6 +1,6 @@
 ﻿---
-ID: "d03b06a8-5f30-4b94-8832-9df92b41e1d1"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "49e65a57-18cf-45dc-9744-8d7c6928cdcc"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "68c00cb0-320b-4324-903a-f6ad56a2a105"
 Path: /sitecore/content/Main Tenant/Global/Data/Accordions
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130747Z
+      Value: 20200209T111304Z

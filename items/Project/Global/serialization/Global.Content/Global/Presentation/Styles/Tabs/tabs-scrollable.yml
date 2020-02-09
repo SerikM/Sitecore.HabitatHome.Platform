@@ -1,6 +1,6 @@
 ﻿---
-ID: "8386e59b-b939-43bd-b2a0-05fcee5988d9"
-Parent: "9c14d9cc-a01a-4f8b-b34d-8e832454040d"
+ID: "abc07c20-1cc2-42a9-b8e5-d6344382fc56"
+Parent: "6c7d97c8-79b0-4a2b-9294-8591f6e5c607"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Tabs/tabs-scrollable"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130649Z
+      Value: 20200209T111259Z

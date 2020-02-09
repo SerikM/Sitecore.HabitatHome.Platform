@@ -1,6 +1,6 @@
 ﻿---
-ID: "5f6afbc9-edd0-486a-91bc-24ee9af2d802"
-Parent: "f05722db-0871-4724-915e-76177fc10e8b"
+ID: "3977f70c-c734-4744-93dd-01d96d65ffc6"
+Parent: "bf439bb5-2d93-4e76-9b9d-15367af60c3a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Layout/footer-bottom"
 DB: master
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130641Z
+      Value: 20200209T111258Z

@@ -1,6 +1,6 @@
 ﻿---
-ID: "a0e30ea8-05d9-458a-b40c-1432b27cd3e7"
-Parent: "f3423260-ac97-44ac-a0dd-7bab6eea3914"
+ID: "aee9cde0-11aa-4ff7-a4dc-88a45ff68b11"
+Parent: "5f7d13cd-2848-4e35-8f86-c8b720a498a0"
 Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Playlist/Default
 DB: master
@@ -19,4 +19,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130940Z
+      Value: 20200209T111338Z

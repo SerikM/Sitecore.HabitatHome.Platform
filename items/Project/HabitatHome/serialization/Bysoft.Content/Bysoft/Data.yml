@@ -1,6 +1,6 @@
 ﻿---
-ID: "1e90192e-3795-4596-a3ab-92bab1a87712"
-Parent: "54f44cd0-077a-41b0-9be4-887083f09e93"
+ID: "8f9c476b-a3ee-4c91-9a1b-15886e0ef6ec"
+Parent: "1c9517c9-900c-40ef-8e90-99c7047bc2f3"
 Template: "5ecd34f4-b36f-4533-9643-df41cd8b5036"
 Path: /sitecore/content/Main Tenant/Bysoft/Data
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T125335Z
+      Value: 20200209T065652Z

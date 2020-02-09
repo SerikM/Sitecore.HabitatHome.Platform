@@ -1,6 +1,6 @@
 ﻿---
-ID: "935df23b-ae98-495e-bda2-ac879f4fb82d"
-Parent: "60b9e323-a6eb-48e9-a764-aef04b40ad43"
+ID: "19f7e31a-2984-4dc4-bce2-d85cf0616ae2"
+Parent: "5e6d7fce-035e-4d10-9a14-e99ae828cc5f"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/File List/Horizontal file list
 DB: master
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130636Z
+      Value: 20200209T111257Z

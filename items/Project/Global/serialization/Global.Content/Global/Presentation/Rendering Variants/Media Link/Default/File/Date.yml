@@ -1,6 +1,6 @@
 ﻿---
-ID: "c2a84057-7647-441c-bdbe-e14af9284022"
-Parent: "fbb4dd58-e37a-4ae8-be5f-cd4f5b66d1b1"
+ID: "25b4c64d-3e84-48e2-8f79-cdb6c53e8838"
+Parent: "6c1d190c-df16-4552-a593-266049dacda3"
 Template: "dc4ebc23-a470-4b5d-8df8-4a55fa823bb4"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Media Link/Default/File/Date
 DB: master
@@ -25,7 +25,7 @@ Languages:
       Value: )
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130934Z
+      Value: 20200209T111336Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

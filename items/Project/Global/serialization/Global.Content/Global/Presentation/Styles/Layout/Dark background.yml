@@ -1,6 +1,6 @@
 ﻿---
-ID: "e3c8f616-416d-45df-b1e1-b1dcd2a690fd"
-Parent: "f05722db-0871-4724-915e-76177fc10e8b"
+ID: "b0f24164-1216-49a0-b557-2843d4783118"
+Parent: "bf439bb5-2d93-4e76-9b9d-15367af60c3a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Layout/Dark background
 DB: master
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130640Z
+      Value: 20200209T111258Z

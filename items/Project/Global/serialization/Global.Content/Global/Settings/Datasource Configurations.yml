@@ -1,6 +1,6 @@
 ﻿---
-ID: "a5e041f0-1232-449f-b2b3-5dacc1daa4c5"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "4a6ec0e7-4991-4b27-a3e2-20d041d9ec30"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "f86fe270-00a4-492f-bfaf-5bf27e40ce13"
 Path: /sitecore/content/Main Tenant/Global/Settings/Datasource Configurations
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130545Z
+      Value: 20200209T111243Z

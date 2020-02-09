@@ -1,6 +1,6 @@
 ﻿---
-ID: "7ef8dfa0-ec9a-4aa5-b5d8-e436c3c4fcd0"
-Parent: "cc4854c2-80e3-487f-84f6-7cb2cdb7baac"
+ID: "cd8c5190-2225-4108-afc7-ef62e95902f0"
+Parent: "dd24f367-14b7-4785-99aa-db91db818de4"
 Template: "634465da-c860-4d80-b469-98dabc3de6c8"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Available Renderings/Layout Service
 DB: master
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130850Z
+      Value: 20200209T111323Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

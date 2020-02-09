@@ -1,6 +1,6 @@
 ﻿---
-ID: "ef009fd5-fac2-4295-9882-fb61845994ad"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "b20b251c-9daa-438e-9ac6-4264efe2b79d"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "5c76ad53-96cd-4b96-9690-dd9af2650171"
 Path: /sitecore/content/Main Tenant/Global/Settings/Item Queries
 DB: master
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131115Z
+      Value: 20200209T111356Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

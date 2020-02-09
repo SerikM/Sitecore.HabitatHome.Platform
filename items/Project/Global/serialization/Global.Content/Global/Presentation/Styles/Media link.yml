@@ -1,6 +1,6 @@
 ﻿---
-ID: "6cab44da-55c9-4ff8-aa8f-dbae9dcfb0f7"
-Parent: "1f2054c9-8493-42d2-91ce-ad14cd481990"
+ID: "01c07ba3-8a24-4540-aa16-acad9b9b8269"
+Parent: "c50c8362-3144-49d2-8188-157dc3ecd580"
 Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Media link
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130642Z
+      Value: 20200209T111258Z

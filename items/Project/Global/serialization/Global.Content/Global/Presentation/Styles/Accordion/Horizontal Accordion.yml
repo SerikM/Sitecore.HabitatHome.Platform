@@ -1,6 +1,6 @@
 ﻿---
-ID: "7834dd23-1a3c-49f4-a2e0-dd89c9e3a751"
-Parent: "5f9ab231-f523-464a-a9c0-3927aaf1f75a"
+ID: "d4c0df4a-ad67-4098-9c4e-ad5233d27888"
+Parent: "2ca06d65-6291-4b7a-87d0-14999a72b54a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Accordion/Horizontal Accordion
 DB: master
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130632Z
+      Value: 20200209T111256Z

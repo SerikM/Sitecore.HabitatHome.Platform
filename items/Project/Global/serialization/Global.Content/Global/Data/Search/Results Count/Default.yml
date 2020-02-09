@@ -1,6 +1,6 @@
 ﻿---
-ID: "11998800-470a-4a83-9c92-0001ff2159af"
-Parent: "b44d287a-98ac-4e05-b0d4-eaa6547b4bb8"
+ID: "40edda04-bdad-46e5-9bff-cd4eae5a877f"
+Parent: "c85e4a1f-9604-421c-81f6-42b694ba4e04"
 Template: "f3c0661e-f9a9-444c-a26d-44bf2a68a186"
 Path: /sitecore/content/Main Tenant/Global/Data/Search/Results Count/Default
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131201Z
+      Value: 20200209T111417Z

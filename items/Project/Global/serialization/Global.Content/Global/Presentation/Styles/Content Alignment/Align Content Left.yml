@@ -1,6 +1,6 @@
 ﻿---
-ID: "b06fcd84-5abe-4cc9-bf74-00ce019969c8"
-Parent: "8792bfcb-51f7-49a0-87c1-3f1197413a0e"
+ID: "47c8896e-adae-4c24-bdef-847acb6c96c7"
+Parent: "a06b15af-967b-4cdb-8467-a6862843103d"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Content Alignment/Align Content Left
 DB: master
@@ -23,4 +23,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130635Z
+      Value: 20200209T111257Z

@@ -1,7 +1,7 @@
 ﻿---
-ID: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
-Parent: "5e0508ba-f19f-4f7a-882c-63b6ed7a3b1f"
-Template: "8f2335ec-dccf-41af-a693-04c56ca4564e"
+ID: "48e43882-23d6-467a-adc5-3b93bf6d440e"
+Parent: "dc8ca951-fa3f-4aa9-b3ec-27b72c0a0ee0"
+Template: "d657d2c0-7266-4577-9d3f-bfdf71d4a5ce"
 Path: /sitecore/content/Main Tenant/Global/Settings
 DB: master
 BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
@@ -27,13 +27,13 @@ SharedFields:
   Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257BFDFEE3CD-14DA-4485-B311-79F21BDE952D%257D"
 - ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
   Hint: EditingTheme
-  Value: "{9F69CECF-8603-4864-89E4-08B66253581A}"
+  Value: "{1D179E14-5E41-481F-913C-AA758E8E60E1}"
 - ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
   Hint: MediaLibrary
-  Value: "{71BEE24C-65DB-4DD8-BEF6-99B7DE108883}"
+  Value: "{72743638-4BA5-40A2-BDC8-668FE5D6E643}"
 - ID: "e8881464-38af-4655-be4a-ee10586578a2"
   Hint: Templates
-  Value: "{54F927B1-1AC3-4F5E-A2A2-39FA97355940}"
+  Value: "{40F0E40F-DAF3-49D6-8F04-6E87596494AA}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{3E739E69-859C-4694-8D14-2BA6CA779CC6}"
@@ -44,4 +44,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130536Z
+      Value: 20200209T111240Z

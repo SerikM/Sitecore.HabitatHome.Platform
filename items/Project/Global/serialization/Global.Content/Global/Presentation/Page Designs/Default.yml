@@ -1,13 +1,13 @@
 ﻿---
-ID: "3dedbdb5-e64d-47f0-b87d-8fcabb11db7c"
-Parent: "99557b1b-a85f-4b50-8dba-1997e18776f1"
-Template: "a6cec74e-ba5e-4ade-bbb5-bb4576f7b4f5"
+ID: "23fefa04-cf79-4d3d-a1d2-855c2a91e25a"
+Parent: "8c42ed3b-a7a9-44d6-be2b-cb38d8e7ee25"
+Template: "0676c77a-8793-4440-a2b4-80c59859a9c5"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Page Designs/Default
 DB: master
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
-  Value: "{D2736308-256C-4805-ACF7-C016D5D84EE4}|{8B507495-FEC2-4E0D-8704-9D97731AD79E}"
+  Value: "{A67D2CF9-CD69-4CD8-A3DC-8814D28FE696}|{FF03C0DE-88B9-49E7-B9B1-8960013F330C}"
 Languages:
 - Language: en
   Versions:
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131219Z
+      Value: 20200209T111424Z

@@ -1,6 +1,6 @@
 ﻿---
-ID: "7e1c2cc9-b283-4c39-9430-98d665da70a0"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "9c51cfe6-3e1a-4c87-864c-eca860358a3a"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "df608f99-aaa5-428d-a4ef-ca92e5f291d3"
 Path: /sitecore/content/Main Tenant/Global/Data/Flashes
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130857Z
+      Value: 20200209T111327Z

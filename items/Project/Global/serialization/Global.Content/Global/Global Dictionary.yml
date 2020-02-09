@@ -1,6 +1,6 @@
 ﻿---
-ID: "415c01ca-5a9a-4bc4-af94-0f754b31bcf4"
-Parent: "5e0508ba-f19f-4f7a-882c-63b6ed7a3b1f"
+ID: "39642638-be80-433d-896a-78e8d265818c"
+Parent: "dc8ca951-fa3f-4aa9-b3ec-27b72c0a0ee0"
 Template: "0a2847e6-9885-450b-b61e-f9e6528480ef"
 Path: /sitecore/content/Main Tenant/Global/Global Dictionary
 DB: master
@@ -26,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130535Z
+      Value: 20200209T111240Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

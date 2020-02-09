@@ -1,6 +1,6 @@
 ﻿---
-ID: "c439712d-345d-403a-aef4-616dfd9bdd5c"
-Parent: "1128d438-3692-4f81-89f9-1cdd32fbee3d"
+ID: "6741c37f-ba95-4596-baa3-d0b744122598"
+Parent: "fe945b17-9fca-4fbf-b1f3-0dced3a69158"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/File List/All Fields/LinkText
 DB: master
@@ -25,7 +25,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130915Z
+      Value: 20200209T111332Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

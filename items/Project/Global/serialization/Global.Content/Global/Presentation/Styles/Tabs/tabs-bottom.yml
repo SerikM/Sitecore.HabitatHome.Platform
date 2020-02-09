@@ -1,6 +1,6 @@
 ﻿---
-ID: "30caeb81-5803-460c-ac2b-5bdbc7cf415e"
-Parent: "9c14d9cc-a01a-4f8b-b34d-8e832454040d"
+ID: "56bb129a-fc0c-4033-9a35-aef05560de29"
+Parent: "6c7d97c8-79b0-4a2b-9294-8591f6e5c607"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Tabs/tabs-bottom"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130648Z
+      Value: 20200209T111259Z

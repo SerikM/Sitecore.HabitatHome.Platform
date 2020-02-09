@@ -1,6 +1,6 @@
 ﻿---
-ID: "80334b88-8e44-45a8-9e27-cd548960e27e"
-Parent: "79fabfe0-f35a-45c2-a233-145fd6038ea1"
+ID: "8d95f5b1-ef36-4e48-9c7a-fa5141ebe41e"
+Parent: "a4cc3049-4306-4802-a11a-4dd75a4277be"
 Template: "6042e216-f650-447c-86d1-00fea97454e7"
 Path: /sitecore/content/Main Tenant/Global/Settings/Facets/SxaTags
 DB: master
@@ -19,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131140Z
+      Value: 20200209T111411Z
     - ID: "31ca077f-ef38-4980-8a24-05408031b2bc"
       Hint: Name
       Value: SxaTags

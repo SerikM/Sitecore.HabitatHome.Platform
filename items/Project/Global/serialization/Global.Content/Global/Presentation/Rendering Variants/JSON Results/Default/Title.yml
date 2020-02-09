@@ -1,6 +1,6 @@
 ﻿---
-ID: "f951dbf6-47aa-4a59-8531-40f3b6c50a4b"
-Parent: "946b7758-90f9-45fc-988f-0a39fc3d672b"
+ID: "d1df32df-b1e1-43c2-bb47-5f3b499b1cc0"
+Parent: "4076c570-de14-4e7e-b5b7-94fd620478b8"
 Template: "f69d787d-0ecf-43d3-b9cb-35b303d5233a"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/JSON Results/Default/Title
 DB: master
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130848Z
+      Value: 20200209T111323Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

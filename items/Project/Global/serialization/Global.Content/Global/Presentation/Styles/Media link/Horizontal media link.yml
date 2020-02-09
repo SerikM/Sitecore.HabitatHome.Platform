@@ -1,6 +1,6 @@
 ﻿---
-ID: "ba2791f0-aa4d-441d-95e9-9ac03c73337e"
-Parent: "6cab44da-55c9-4ff8-aa8f-dbae9dcfb0f7"
+ID: "9bf87129-15d1-4171-b3ca-59c80346a751"
+Parent: "01c07ba3-8a24-4540-aa16-acad9b9b8269"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Media link/Horizontal media link
 DB: master
@@ -27,4 +27,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130642Z
+      Value: 20200209T111258Z

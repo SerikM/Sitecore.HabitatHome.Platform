@@ -1,6 +1,6 @@
 ﻿---
-ID: "d2393dfe-59c4-4745-8ebc-d257dbc06d89"
-Parent: "6d8dcdb8-8d36-4b92-a9cc-37270a6d5764"
+ID: "b64a4810-ae92-4121-9f96-fee299fd37f0"
+Parent: "c00695f1-0031-4ceb-b9ed-ab30bf3f5e27"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Image/carousel-image-full-size"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130638Z
+      Value: 20200209T111258Z

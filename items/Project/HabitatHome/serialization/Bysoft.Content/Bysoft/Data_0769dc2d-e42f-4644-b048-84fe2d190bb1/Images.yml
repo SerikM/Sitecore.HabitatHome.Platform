@@ -1,0 +1,14 @@
+﻿---
+ID: "93e43e4c-046e-4310-a2ea-94ee08f85ccd"
+Parent: "0769dc2d-e42f-4644-b048-84fe2d190bb1"
+Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T111040Z

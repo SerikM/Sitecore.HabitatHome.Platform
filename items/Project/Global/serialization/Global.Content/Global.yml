@@ -1,7 +1,7 @@
 ﻿---
-ID: "5e0508ba-f19f-4f7a-882c-63b6ed7a3b1f"
-Parent: "0dc594bb-b938-45bc-b669-2b111a6c83bc"
-Template: "238ab044-5342-4967-99c3-87a597e18acd"
+ID: "dc8ca951-fa3f-4aa9-b3ec-27b72c0a0ee0"
+Parent: "06da7d81-cc48-4c24-8f76-b3d851201b9c"
+Template: "563ef1ad-4b0b-4bae-9267-aeb4f2b959f6"
 Path: /sitecore/content/Main Tenant/Global
 DB: master
 BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
@@ -49,13 +49,13 @@ SharedFields:
     {46D0AA2D-2804-4ECA-92B2-956D623EE44C}
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
-  Value: "{71BEE24C-65DB-4DD8-BEF6-99B7DE108883}"
+  Value: "{72743638-4BA5-40A2-BDC8-668FE5D6E643}"
 - ID: "bd094adf-1e7f-4f1b-8300-8d8248ed4600"
   Hint: FormsFolderLocation
-  Value: "{715825AE-FA95-4D48-BD12-97DB8781E4A7}"
+  Value: "{37A43D9A-B1FD-4611-A717-D6FDF1097A5A}"
 - ID: "d7264a2b-e343-4613-a71a-1727f50dbc15"
   Hint: ThemesFolder
-  Value: "{D41F00B5-3DB6-401E-AE3A-A678FB045299}"
+  Value: "{DDC9B705-82B5-4770-A00F-9F72A27B8591}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{DAD74961-1A72-490F-A0E6-D501635F0A79}"
@@ -66,4 +66,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130535Z
+      Value: 20200209T111240Z

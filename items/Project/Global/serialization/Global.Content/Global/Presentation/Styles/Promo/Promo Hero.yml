@@ -1,6 +1,6 @@
 ﻿---
-ID: "895f2b1a-17c4-4fa6-bc5e-cc9637ce9619"
-Parent: "9a1a6dca-d37e-44f8-be71-15ebda04499c"
+ID: "5e132896-4955-42d9-9adb-5db29bc51ff2"
+Parent: "d82da0d2-8c9c-4da2-8e1a-ea45e6d876e3"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Promo/Promo Hero
 DB: master
@@ -27,4 +27,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130646Z
+      Value: 20200209T111259Z

@@ -1,6 +1,6 @@
 ﻿---
-ID: "4cc06c9b-1f0c-4373-bd46-401a16b0de36"
-Parent: "4f3878ee-b42c-4ea1-975b-fc5d1738d542"
+ID: "ca64ec8e-b4aa-417a-a055-1095b1d7b6e2"
+Parent: "00e156bb-dcb3-4933-ad7f-0b0307b32f76"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Flip/flip-vertical"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130636Z
+      Value: 20200209T111257Z

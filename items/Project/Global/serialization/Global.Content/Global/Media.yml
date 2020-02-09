@@ -1,6 +1,6 @@
 ﻿---
-ID: "a6422b43-813f-4c24-a790-06c2a6bdbef2"
-Parent: "5e0508ba-f19f-4f7a-882c-63b6ed7a3b1f"
+ID: "5e2aeefe-5f29-466b-83e1-fdffe8968274"
+Parent: "dc8ca951-fa3f-4aa9-b3ec-27b72c0a0ee0"
 Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
 Path: /sitecore/content/Main Tenant/Global/Media
 DB: master
@@ -10,8 +10,8 @@ SharedFields:
   Hint: AdditionalChildren
   Type: Treelist
   Value: |
-    {71BEE24C-65DB-4DD8-BEF6-99B7DE108883}
-    {2C6D7313-B7D2-4975-A3E2-CA48D0B4607E}
+    {72743638-4BA5-40A2-BDC8-668FE5D6E643}
+    {A0EA7C54-3122-4FF4-AF7B-16FE9B88A615}
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130535Z
+      Value: 20200209T111240Z

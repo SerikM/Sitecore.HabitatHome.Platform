@@ -1,7 +1,7 @@
 ﻿---
-ID: "cad81646-7d8e-4327-9593-36f9ce8a3d89"
-Parent: "06ff6a8e-f9c9-4715-b184-36756317d71c"
-Template: "a91d569b-8d83-4b83-95ce-a475af270001"
+ID: "011e3907-b25e-45d0-afad-5d96ceaa9c99"
+Parent: "6bca6c55-b174-40f4-857b-e992a28f46d6"
+Template: "bf680756-b2fa-4cae-8b69-ee361080616f"
 Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Partial Designs/Empty
 DB: master
 BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
@@ -23,4 +23,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T125336Z
+      Value: 20200209T065652Z

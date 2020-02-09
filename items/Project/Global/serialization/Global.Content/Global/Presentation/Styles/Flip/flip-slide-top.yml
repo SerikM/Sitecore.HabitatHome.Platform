@@ -1,6 +1,6 @@
 ﻿---
-ID: "88df52ed-6ef1-47f2-b8e9-88ddae84a490"
-Parent: "4f3878ee-b42c-4ea1-975b-fc5d1738d542"
+ID: "bcddcb9a-d04e-4bd0-a61c-dd9f19693a21"
+Parent: "00e156bb-dcb3-4933-ad7f-0b0307b32f76"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Flip/flip-slide-top"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130636Z
+      Value: 20200209T111257Z

@@ -1,6 +1,6 @@
 ﻿---
-ID: "8cec029a-49c8-480e-aecc-12318a1e50b7"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "79d09bde-1a36-48d6-9678-6354c029a846"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "1dc97094-8357-4335-8df5-3349193b1e02"
 Path: /sitecore/content/Main Tenant/Global/Data/Skip Links
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130740Z
+      Value: 20200209T111301Z

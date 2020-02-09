@@ -1,6 +1,6 @@
 ﻿---
-ID: "b89cf5b1-829e-4439-b105-d69cdfc4f6bc"
-Parent: "4f3878ee-b42c-4ea1-975b-fc5d1738d542"
+ID: "307d206a-ad32-4d0e-815a-118ce994e3be"
+Parent: "00e156bb-dcb3-4933-ad7f-0b0307b32f76"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Flip/flip-fade"
 DB: master
@@ -34,4 +34,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130636Z
+      Value: 20200209T111257Z

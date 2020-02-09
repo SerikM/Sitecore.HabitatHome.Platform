@@ -1,6 +1,6 @@
 ﻿---
-ID: "999f72ee-47d4-44e1-9c7b-61087308bbfa"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "018e00d3-88a6-4ece-878b-72c3a19eb318"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "5a6bf1d1-836b-425a-a6e6-32ceaa8ff3a5"
 Path: /sitecore/content/Main Tenant/Global/Settings/Browser Title
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131123Z
+      Value: 20200209T111400Z

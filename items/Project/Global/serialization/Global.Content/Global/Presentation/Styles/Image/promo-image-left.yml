@@ -1,6 +1,6 @@
 ﻿---
-ID: "fdd16a32-d34d-4d3e-9516-855ffc5936bf"
-Parent: "6d8dcdb8-8d36-4b92-a9cc-37270a6d5764"
+ID: "5e1115d7-a5a9-41d5-94e7-43cd86ba8288"
+Parent: "c00695f1-0031-4ceb-b9ed-ab30bf3f5e27"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Image/promo-image-left"
 DB: master
@@ -36,4 +36,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130638Z
+      Value: 20200209T111258Z

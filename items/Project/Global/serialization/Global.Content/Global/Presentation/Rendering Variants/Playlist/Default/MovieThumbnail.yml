@@ -1,6 +1,6 @@
 ﻿---
-ID: "b80ea924-d245-4c09-bea1-c4a53be772ab"
-Parent: "a0e30ea8-05d9-458a-b40c-1432b27cd3e7"
+ID: "6ae8dd84-39ea-4583-bac3-72836cf21961"
+Parent: "aee9cde0-11aa-4ff7-a4dc-88a45ff68b11"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Playlist/Default/MovieThumbnail
 DB: master
@@ -28,4 +28,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130940Z
+      Value: 20200209T111338Z

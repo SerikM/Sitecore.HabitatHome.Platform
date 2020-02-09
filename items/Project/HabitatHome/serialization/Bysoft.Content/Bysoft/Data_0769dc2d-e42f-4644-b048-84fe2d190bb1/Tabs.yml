@@ -1,0 +1,14 @@
+﻿---
+ID: "3bac5d90-b86f-45dd-a0b2-c0941bd157bb"
+Parent: "0769dc2d-e42f-4644-b048-84fe2d190bb1"
+Template: "1ef29b63-5b98-463c-b3c8-66dfe99bd641"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Tabs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T111005Z

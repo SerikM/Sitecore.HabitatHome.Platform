@@ -1,6 +1,6 @@
 ﻿---
-ID: "7b5da3a2-9cce-4f6c-9919-3bb24f3600bf"
-Parent: "347408a9-d9f5-4a5e-b843-5393f0ee3956"
+ID: "a4c1c421-11ba-4821-bec9-3cddd340bc78"
+Parent: "7c581ab4-f2e4-4ded-8826-50be07185373"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Breadcrumb/Default/NavigationTitle
 DB: master
@@ -25,4 +25,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130958Z
+      Value: 20200209T111343Z

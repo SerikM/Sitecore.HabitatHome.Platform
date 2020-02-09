@@ -1,0 +1,26 @@
+﻿---
+ID: "9559732b-c827-4451-9940-725585741926"
+Parent: "f1c8cbc4-d887-4457-a810-9ea4e5f0abbb"
+Template: "3491a52a-ed75-477e-a266-6d4b8ca47990"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Partial Designs/Empty
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: empty
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5EAD902D-16C3-4395-B3B3-6A15523215E8}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Empty
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T110936Z

@@ -1,6 +1,6 @@
 ﻿---
-ID: "963cb22d-56c2-47fb-8e0e-12eef08ebabf"
-Parent: "9aa1c941-71da-4626-9666-02bdb739c4df"
+ID: "5c5ec483-194f-44c2-8749-719e53dc574b"
+Parent: "4147ad09-38d8-49ce-9dfc-f260430b33fd"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Promo/Default/Promo Text/Promo Link
 DB: master
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131021Z
+      Value: 20200209T111352Z

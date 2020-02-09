@@ -1,6 +1,6 @@
 ﻿---
-ID: "0d9038ed-9259-466a-9b97-1b14f10dc84e"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "c7ad5990-102e-481c-a013-cc74f8011024"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "456067df-fc7d-4639-9177-41f69e81c927"
 Path: /sitecore/content/Main Tenant/Global/Settings/Twitter Apps
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131137Z
+      Value: 20200209T111409Z

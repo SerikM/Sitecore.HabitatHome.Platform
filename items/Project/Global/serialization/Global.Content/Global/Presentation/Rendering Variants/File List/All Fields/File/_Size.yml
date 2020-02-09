@@ -1,6 +1,6 @@
 ﻿---
-ID: "7f25d704-7215-4a06-a56f-cfb553b2e0bc"
-Parent: "7a5021bf-5869-4d72-8067-678e6807383b"
+ID: "0a060d37-2ed4-416b-9ecb-babc0efacfde"
+Parent: "b1fb7c46-61b7-4086-a79e-7ef86d121d0f"
 Template: "6eca12e9-f4d5-4f6e-9c3c-6df716bc593b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/File List/All Fields/File/$Size
 DB: master
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130916Z
+      Value: 20200209T111332Z

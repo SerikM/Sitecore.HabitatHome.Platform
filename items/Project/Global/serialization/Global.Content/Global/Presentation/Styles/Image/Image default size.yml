@@ -1,6 +1,6 @@
 ﻿---
-ID: "4ecfe6ba-003a-4fb3-b103-b1b569b82e73"
-Parent: "6d8dcdb8-8d36-4b92-a9cc-37270a6d5764"
+ID: "2b5e59ce-5c9e-4117-9f47-3ad22a6de690"
+Parent: "c00695f1-0031-4ceb-b9ed-ab30bf3f5e27"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Image/Image default size
 DB: master
@@ -33,4 +33,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130638Z
+      Value: 20200209T111258Z

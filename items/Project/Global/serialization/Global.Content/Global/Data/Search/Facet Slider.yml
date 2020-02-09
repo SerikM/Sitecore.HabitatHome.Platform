@@ -1,6 +1,6 @@
 ﻿---
-ID: "8bdfe7eb-f93d-44b1-8925-e02b65a75918"
-Parent: "737732c0-7a3d-4929-844a-a2077918c05f"
+ID: "aa8736fc-65f2-4a2a-a27e-99098af50a01"
+Parent: "f15df16f-aeed-4bf8-b44e-1007df32bcac"
 Template: "ebb0b13d-ccf4-4bdf-8d3c-e2fdb4bb0240"
 Path: /sitecore/content/Main Tenant/Global/Data/Search/Facet Slider
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131156Z
+      Value: 20200209T111416Z

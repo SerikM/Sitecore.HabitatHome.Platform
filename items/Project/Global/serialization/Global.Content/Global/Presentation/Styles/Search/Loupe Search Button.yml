@@ -1,6 +1,6 @@
 ﻿---
-ID: "715e660b-5b78-487d-aec5-f2e30c14ba8b"
-Parent: "122d6e71-a94e-47a0-8525-5638ae2a8a1b"
+ID: "29a9fff1-81a4-41fe-bebd-e224f2713995"
+Parent: "211e5620-9428-44cc-a5da-27d1e5c8b061"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Search/Loupe Search Button
 DB: master
@@ -23,4 +23,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130736Z
+      Value: 20200209T111300Z

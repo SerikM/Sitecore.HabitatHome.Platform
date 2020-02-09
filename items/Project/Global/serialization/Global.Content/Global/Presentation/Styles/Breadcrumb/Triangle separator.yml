@@ -1,6 +1,6 @@
 ﻿---
-ID: "52b86587-b555-4ee3-abd8-2fdb8ee0187f"
-Parent: "e2c2b623-5c51-43df-86f9-831812e541df"
+ID: "5e70a1d4-8f99-4a00-91cf-56f3b4b4b7a8"
+Parent: "9ffa2357-ac4a-4661-84c1-6441946d2726"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Breadcrumb/Triangle separator
 DB: master
@@ -27,7 +27,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130632Z
+      Value: 20200209T111256Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

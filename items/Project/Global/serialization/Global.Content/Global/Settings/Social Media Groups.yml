@@ -1,6 +1,6 @@
 ﻿---
-ID: "2c952d7e-08ea-4226-abab-e1be6059e9c1"
-Parent: "8fa2ee1d-3ed6-4d02-b9a4-1070ac4bcd71"
+ID: "4251c328-d8ed-4757-8f3a-317247d6379b"
+Parent: "48e43882-23d6-467a-adc5-3b93bf6d440e"
 Template: "b14bab5b-8965-466b-886b-1f93175bcab3"
 Path: /sitecore/content/Main Tenant/Global/Settings/Social Media Groups
 DB: master
@@ -16,4 +16,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131134Z
+      Value: 20200209T111408Z

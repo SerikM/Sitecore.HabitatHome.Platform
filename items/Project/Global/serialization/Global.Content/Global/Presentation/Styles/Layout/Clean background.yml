@@ -1,6 +1,6 @@
 ﻿---
-ID: "680f4c39-a91a-4669-b006-fc4af18c59ee"
-Parent: "f05722db-0871-4724-915e-76177fc10e8b"
+ID: "dd3ce9df-2b39-478f-925c-3692591802e8"
+Parent: "bf439bb5-2d93-4e76-9b9d-15367af60c3a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Layout/Clean background
 DB: master
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130639Z
+      Value: 20200209T111258Z

@@ -1,6 +1,6 @@
 ﻿---
-ID: "70ad96d6-0c81-4005-8012-03ebce05ac6e"
-Parent: "defceefd-cc7d-41b4-b6b0-c4427e49b232"
+ID: "5730bc74-c69d-49a5-9c8e-af24d1b2ea6c"
+Parent: "72079d3b-e842-47ea-b6ae-060516ca20a6"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/RichText/Default/Text
 DB: master
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131023Z
+      Value: 20200209T111353Z

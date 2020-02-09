@@ -1,6 +1,6 @@
 ﻿---
-ID: "082e5e8d-a73c-4d83-899a-49c3ed6ee426"
-Parent: "d8b963dd-ca7f-4a5f-a5db-53c8cb0390cc"
+ID: "ff4237f0-2401-4928-92e7-d530870cd352"
+Parent: "e2faf8f3-94c5-47c6-be55-9b1e33ee25ef"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Styles/Common/Indent Side
 DB: master
@@ -26,4 +26,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130627Z
+      Value: 20200209T111256Z

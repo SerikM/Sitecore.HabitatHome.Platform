@@ -1,6 +1,6 @@
 ﻿---
-ID: "f4426692-4a8d-4e09-8be4-b826494e9f6a"
-Parent: "f05722db-0871-4724-915e-76177fc10e8b"
+ID: "46cbfb0a-621c-455c-8529-fdc36c4b81af"
+Parent: "bf439bb5-2d93-4e76-9b9d-15367af60c3a"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/Main Tenant/Global/Presentation/Styles/Layout/fix-background"
 DB: master
@@ -31,4 +31,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130640Z
+      Value: 20200209T111258Z

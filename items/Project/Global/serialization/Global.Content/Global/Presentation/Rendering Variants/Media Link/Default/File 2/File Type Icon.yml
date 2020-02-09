@@ -1,6 +1,6 @@
 ﻿---
-ID: "06483e2a-a558-4ba4-a961-05ba90ed8a84"
-Parent: "bc174fe0-e858-4060-813e-1bc24963e406"
+ID: "4c3ef505-b7e3-4744-a86f-ff59ac6b7f61"
+Parent: "fb2257b9-f814-4c6d-b717-613c2532f0f6"
 Template: "6eca12e9-f4d5-4f6e-9c3c-6df716bc593b"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Media Link/Default/File 2/File Type Icon
 DB: master
@@ -25,4 +25,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T130933Z
+      Value: 20200209T111336Z

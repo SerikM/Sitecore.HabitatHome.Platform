@@ -1,6 +1,6 @@
 ﻿---
-ID: "eb8abb8e-2f8e-4840-9a9f-dc05d4008231"
-Parent: "3d71e4f2-50b8-4851-bc8e-7f54260cf731"
+ID: "33d3c8c2-6659-467b-b9bb-2109d5165a87"
+Parent: "086ca899-2596-40b2-b3dd-4a0d0d05f28c"
 Template: "a6298267-7240-472e-94d0-09fad3d32c7b"
 Path: /sitecore/content/Main Tenant/Global/Data/Texts
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131012Z
+      Value: 20200209T111349Z

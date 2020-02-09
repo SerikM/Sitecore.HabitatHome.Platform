@@ -1,6 +1,6 @@
 ﻿---
-ID: "616a3e2b-ba2c-4731-bf4d-bfe7ea55022f"
-Parent: "801a663a-c952-40f0-b0de-9d251a87e33c"
+ID: "67e2c31d-5d14-4b7b-b4d6-a2e4a484aa8f"
+Parent: "aa5a7a66-fe5f-41d5-a825-e52a63d431cc"
 Template: "e1a3b30c-77bc-4f6c-a008-d01b3371235d"
 Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Field Editor
 DB: master
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200208T131012Z
+      Value: 20200209T111349Z

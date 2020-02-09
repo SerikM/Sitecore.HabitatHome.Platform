@@ -1,0 +1,14 @@
+﻿---
+ID: "1fcf19ac-83f8-4d61-aa9a-ae4399ec5246"
+Parent: "b783d60b-6f2b-49c4-b1af-52e1c8d616ae"
+Template: "dc66d5da-3216-48e6-ae78-bac8445b6a46"
+Path: /sitecore/content/Main Tenant/Bysoft/Settings/Privacy Warning
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T111000Z
