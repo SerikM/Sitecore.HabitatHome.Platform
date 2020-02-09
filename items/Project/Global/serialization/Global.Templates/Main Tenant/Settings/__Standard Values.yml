@@ -1,0 +1,14 @@
+﻿---
+ID: "436394c5-a098-473b-bc84-d14f465f50d6"
+Parent: "fc7e8639-476e-4219-bcde-c12ca4486a0d"
+Template: "fc7e8639-476e-4219-bcde-c12ca4486a0d"
+Path: /sitecore/templates/Project/Main Tenant/Settings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T135753Z

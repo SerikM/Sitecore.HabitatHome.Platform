@@ -1,0 +1,18 @@
+﻿---
+ID: "307fdae1-5dc2-4a7a-82b4-95267ef120cc"
+Parent: "8caad3c9-c75c-4551-a567-ea84cecd7d3d"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/Main Tenant/Global
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140152Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
