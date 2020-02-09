@@ -1,0 +1,14 @@
+﻿---
+ID: "58c9036a-2fa4-4cc8-bc42-301380e4269d"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "ad8537df-06bb-4dd3-b044-0cd5c181a219"
+Path: /sitecore/content/Main Tenant/Global/Data/Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141256Z

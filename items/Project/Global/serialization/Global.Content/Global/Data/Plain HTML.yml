@@ -1,0 +1,14 @@
+﻿---
+ID: "744c26a3-6b26-4edd-8aeb-62c997025b05"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "5ab4ae85-0e97-4afb-8498-b93c657a0df0"
+Path: /sitecore/content/Main Tenant/Global/Data/Plain HTML
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141305Z

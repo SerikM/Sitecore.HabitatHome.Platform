@@ -1,0 +1,22 @@
+﻿---
+ID: "d3cbf3ef-3930-4054-bade-b48ae3f4639f"
+Parent: "820ee51f-991d-4e4f-9f03-1747a7b3db2b"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/Main Tenant/Global/Presentation/Rendering Variants/Aggregated Facet Filter/Default
+DB: master
+BranchID: "f85580ce-5a51-4e53-a0b4-9361380d76ab"
+SharedFields:
+- ID: "e1d5adba-8348-4127-9bb6-455936653839"
+  Hint: CssClass
+  Value: horizontal
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{D7A9339F-0B5E-43FC-918F-8E2527255354}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141340Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "a90f01b7-83a6-4f7a-9a65-93ec24c19ee8"
+Parent: "d05be1e4-6571-40ca-8b02-b58eaa2163ba"
+Template: "35abcb7f-dd86-483d-abe1-41c93c3aa7d9"
+Path: /sitecore/content/Main Tenant/Global/Settings/HTML Snippets
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141220Z

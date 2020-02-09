@@ -1,0 +1,14 @@
+﻿---
+ID: "22f075d0-0597-47e9-9017-6f2d82b246a7"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "83db28a0-f7f6-42fc-ad48-d0a2d4b644d6"
+Path: /sitecore/content/Main Tenant/Global/Data/Galleries
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141240Z

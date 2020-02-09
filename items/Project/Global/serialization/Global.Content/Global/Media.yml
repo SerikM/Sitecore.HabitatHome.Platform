@@ -1,0 +1,25 @@
+﻿---
+ID: "5ea718b5-248c-4d15-bb37-834fb702afdf"
+Parent: "4800e3a0-22a8-4a27-9f3b-0a4cd5826db5"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/Main Tenant/Global/Media
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Type: Treelist
+  Value: |
+    {FE6B19C6-14ED-4C82-80E7-0440ABA95072}
+    {3E2D1DDE-E032-487F-84AE-82389072FDFB}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141135Z

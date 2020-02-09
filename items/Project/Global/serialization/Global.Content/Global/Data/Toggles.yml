@@ -1,0 +1,14 @@
+﻿---
+ID: "bdabf5a8-2cae-4be4-bf6d-8e1390838a77"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "8178b44e-b2bb-4635-85ba-b807ce420858"
+Path: /sitecore/content/Main Tenant/Global/Data/Toggles
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141313Z

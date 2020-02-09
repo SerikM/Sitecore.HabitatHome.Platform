@@ -1,0 +1,14 @@
+﻿---
+ID: "cb215d50-196f-4f85-8470-d01a5c1df061"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "c959e8ef-cd42-4967-83f6-bee092c0beae"
+Path: /sitecore/content/Main Tenant/Global/Data/File Lists
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141238Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "eceedc56-cd24-47c9-b9d5-0c7ede611aab"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "25a6b824-672f-4c15-9b98-0b231c80f81c"
+Path: /sitecore/content/Main Tenant/Global/Data/Tags
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141332Z

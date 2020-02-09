@@ -1,0 +1,14 @@
+﻿---
+ID: "ba8c9165-6a92-4d95-a963-88684d9d3ca6"
+Parent: "d05be1e4-6571-40ca-8b02-b58eaa2163ba"
+Template: "f86fe270-00a4-492f-bfaf-5bf27e40ce13"
+Path: /sitecore/content/Main Tenant/Global/Settings/Datasource Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141139Z

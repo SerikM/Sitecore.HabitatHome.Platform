@@ -1,0 +1,14 @@
+﻿---
+ID: "2ad82565-f9df-4ae9-aa81-1132de42d874"
+Parent: "95ec2e71-09b4-48f7-915f-823f38415839"
+Template: "26fce9bf-0256-458d-8281-a713a5bf5520"
+Path: /sitecore/content/Main Tenant/Global/Presentation/Cache Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141145Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "5e4e3d7b-13a0-4a3a-aadb-664b799a0731"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "a6298267-7240-472e-94d0-09fad3d32c7b"
+Path: /sitecore/content/Main Tenant/Global/Data/Texts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141306Z

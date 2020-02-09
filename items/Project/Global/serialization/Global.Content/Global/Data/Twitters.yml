@@ -1,0 +1,14 @@
+﻿---
+ID: "a7d1c6f7-e03d-465c-b838-579ca12119d5"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "041c1f9f-99a4-4ee6-8308-985499f91032"
+Path: /sitecore/content/Main Tenant/Global/Data/Twitters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141328Z

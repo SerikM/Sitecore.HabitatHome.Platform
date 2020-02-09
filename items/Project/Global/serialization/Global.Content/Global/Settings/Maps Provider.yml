@@ -1,0 +1,18 @@
+﻿---
+ID: "09d66591-eae0-4145-96ae-f0ebe58f92d1"
+Parent: "d05be1e4-6571-40ca-8b02-b58eaa2163ba"
+Template: "70461699-48e4-45fa-b74b-0cce849fca6a"
+Path: /sitecore/content/Main Tenant/Global/Settings/Maps Provider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141222Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "5696f317-0939-46dc-9a3a-c98d47084592"
+Parent: "d05be1e4-6571-40ca-8b02-b58eaa2163ba"
+Template: "dc66d5da-3216-48e6-ae78-bac8445b6a46"
+Path: /sitecore/content/Main Tenant/Global/Settings/Privacy Warning
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141202Z

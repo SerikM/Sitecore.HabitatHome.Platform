@@ -1,0 +1,14 @@
+﻿---
+ID: "3314a87b-dfa7-4f3c-88b0-c11410c2c100"
+Parent: "66b2c64c-16ca-486d-bf7c-d4f85b920fa6"
+Template: "df608f99-aaa5-428d-a4ef-ca92e5f291d3"
+Path: /sitecore/content/Main Tenant/Global/Data/Flashes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141239Z

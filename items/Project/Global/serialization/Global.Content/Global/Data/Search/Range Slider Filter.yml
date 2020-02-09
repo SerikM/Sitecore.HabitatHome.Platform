@@ -1,0 +1,19 @@
+﻿---
+ID: "c3f18a8d-36d8-419e-a605-8bb99f91a0db"
+Parent: "89b44c50-377e-4db5-9848-66dd2f8bf2b6"
+Template: "7d431148-b2a1-452d-900f-7e36d864df02"
+Path: /sitecore/content/Main Tenant/Global/Data/Search/Range Slider Filter
+DB: master
+BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9C654BB7-A9B1-4564-A150-A7CCF45056E9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T141339Z
