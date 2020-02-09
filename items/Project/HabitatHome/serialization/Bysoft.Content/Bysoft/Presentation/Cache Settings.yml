@@ -1,0 +1,14 @@
+﻿---
+ID: "1cec1682-4217-40ef-92e7-bdeda8969c98"
+Parent: "f9a46fc7-d338-4a4b-9a71-5604866a9fba"
+Template: "26fce9bf-0256-458d-8281-a713a5bf5520"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Cache Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140647Z

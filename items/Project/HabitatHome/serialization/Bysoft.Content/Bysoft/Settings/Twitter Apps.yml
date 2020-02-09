@@ -1,0 +1,14 @@
+﻿---
+ID: "5363d6f8-c116-4429-af07-b0b77e3841aa"
+Parent: "2049f7d3-456d-4dc6-8766-0dec3e4c1d6e"
+Template: "456067df-fc7d-4639-9177-41f69e81c927"
+Path: /sitecore/content/Main Tenant/Bysoft/Settings/Twitter Apps
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140755Z

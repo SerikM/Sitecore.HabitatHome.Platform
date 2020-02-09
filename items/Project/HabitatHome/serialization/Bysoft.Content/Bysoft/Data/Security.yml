@@ -1,0 +1,14 @@
+﻿---
+ID: "376776b6-4b7d-4035-a10b-b1a8846a2603"
+Parent: "a48f8ea3-9081-4461-b357-299474521532"
+Template: "33077d51-ebad-4d1c-b4a8-3b79f51dba13"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Security
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140747Z

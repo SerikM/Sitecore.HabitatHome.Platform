@@ -1,0 +1,14 @@
+﻿---
+ID: "1c7dc151-0a8e-4175-a926-6d6400a5cb93"
+Parent: "a48f8ea3-9081-4461-b357-299474521532"
+Template: "a13a1b91-fd2b-494b-9086-008852175b0a"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Carousels
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140702Z

@@ -1,0 +1,19 @@
+﻿---
+ID: "0ed2d598-0605-4116-83ba-88227593890e"
+Parent: "f9a46fc7-d338-4a4b-9a71-5604866a9fba"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Styles
+DB: master
+BranchID: "5edf676a-2fdd-418a-8c56-cb465ee16e20"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{00A4D4A3-0125-4FD7-94BA-9E315DCE65C8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140652Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "253197c0-0ef1-483d-8e50-476a0a04f1d9"
+Parent: "2049f7d3-456d-4dc6-8766-0dec3e4c1d6e"
+Template: "f86fe270-00a4-492f-bfaf-5bf27e40ce13"
+Path: /sitecore/content/Main Tenant/Bysoft/Settings/Datasource Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140640Z

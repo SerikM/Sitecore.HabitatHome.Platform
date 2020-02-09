@@ -1,0 +1,19 @@
+﻿---
+ID: "0439500b-5af5-4558-9e7d-fa1995c7fac0"
+Parent: "74a5303d-b03b-4512-99bd-13d6ba0b77c4"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Rendering Variants/Link List/Default
+DB: master
+BranchID: "60ac3def-7cda-406b-8f40-4e4f0073e4c2"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C5678F86-D23D-41CA-B236-A1989FCFDAC7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140735Z

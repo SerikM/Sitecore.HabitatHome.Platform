@@ -1,0 +1,18 @@
+﻿---
+ID: "a7f4b0dd-dc2f-49a9-9801-5582d6623dd2"
+Parent: "416f2c81-496d-4d44-9241-7080be4b4a6b"
+Template: "e1a3b30c-77bc-4f6c-a008-d01b3371235d"
+Path: /sitecore/content/Main Tenant/Bysoft/Presentation/Rendering Variants/Field Editor
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/text_field.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140738Z

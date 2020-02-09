@@ -1,0 +1,14 @@
+﻿---
+ID: "f0ad7e43-37c8-44e0-934e-0a2a0cf97ec0"
+Parent: "a48f8ea3-9081-4461-b357-299474521532"
+Template: "1dc97094-8357-4335-8df5-3349193b1e02"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Skip Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140658Z

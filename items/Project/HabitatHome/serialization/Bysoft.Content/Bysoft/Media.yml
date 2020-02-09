@@ -1,0 +1,25 @@
+﻿---
+ID: "21c2847d-6f99-425f-969e-b80241004d5d"
+Parent: "80e14e3f-3e94-4289-8bb1-4bd890076587"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/Main Tenant/Bysoft/Media
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Type: Treelist
+  Value: |
+    {5F81C19A-C96B-4C21-8523-9C3A05D3A16D}
+    {3E2D1DDE-E032-487F-84AE-82389072FDFB}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140636Z

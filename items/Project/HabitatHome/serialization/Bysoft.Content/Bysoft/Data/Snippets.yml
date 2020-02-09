@@ -1,0 +1,14 @@
+﻿---
+ID: "c57cc068-b496-4aa5-8d21-23f35bf7988d"
+Parent: "a48f8ea3-9081-4461-b357-299474521532"
+Template: "e854b5b7-510c-4b65-97f7-d483a9b54398"
+Path: /sitecore/content/Main Tenant/Bysoft/Data/Snippets
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T140703Z
