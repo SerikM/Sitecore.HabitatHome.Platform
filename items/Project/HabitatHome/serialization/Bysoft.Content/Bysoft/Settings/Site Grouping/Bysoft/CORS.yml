@@ -2,7 +2,7 @@
 ID: "f3544984-1d7d-4578-ac77-ba300fe48a51"
 Parent: "55c32dd7-d305-48bb-81fc-bcaaf7999e0f"
 Template: "3d55c326-3353-48cd-bedc-e8ae0cb9ef4d"
-Path: /sitecore/content/Main Tenant/Bysoft/Settings/Site Grouping/Bysoftr/CORS
+Path: /sitecore/content/Main Tenant/Bysoft/Settings/Site Grouping/Bysoft/CORS
 DB: master
 BranchID: "f0e39dc1-6a4f-41ed-b0fe-b65bf09a1745"
 SharedFields:

@@ -36,3 +36,4 @@ Azure/**/azureuser-config.json
 /Build/**/obj/
 publish
 *.metaproj*
+/logs/

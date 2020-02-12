@@ -165,36 +165,36 @@ Task("Publish-Feature-Projects").Does(() => {
   PublishProjects(configuration.FeatureSrcFolder, destination);
 });
 
-// Task("Publish-Core-Project").Does(() => {
-//   var destination = configuration.WebsiteRoot;
+Task("Publish-Core-Project").Does(() => {
+  var destination = configuration.WebsiteRoot;
 
-//   if (publishLocal) {
-//     destination = configuration.PublishWebFolder;
-//   }
-//   Information("Destination: " + destination);
+  if (publishLocal) {
+    destination = configuration.PublishWebFolder;
+  }
+  Information("Destination: " + destination);
 
-//   var projectFile = $"{configuration.SourceFolder}\\Build\\Build.Shared\\code\\Build.Shared.csproj";
-//   var publishFolder = $"{configuration.PublishTempFolder}";
+  var projectFile = $"{configuration.SourceFolder}\\Build\\Build.Shared\\code\\Build.Shared.csproj";
+  var publishFolder = $"{configuration.PublishTempFolder}";
 
-//   DotNetCoreMSBuildSettings buildSettings = new DotNetCoreMSBuildSettings();
-//   buildSettings.SetConfiguration(configuration.BuildConfiguration);
+  DotNetCoreMSBuildSettings buildSettings = new DotNetCoreMSBuildSettings();
+  buildSettings.SetConfiguration(configuration.BuildConfiguration);
 
-//   DotNetCoreRestoreSettings restoreSettings = new DotNetCoreRestoreSettings {
-//     MSBuildSettings = buildSettings,
-//     Interactive = true
-//   };
+  DotNetCoreRestoreSettings restoreSettings = new DotNetCoreRestoreSettings {
+    MSBuildSettings = buildSettings,
+    Interactive = true
+  };
 
-//   DotNetCoreRestore(projectFile, restoreSettings);
+  DotNetCoreRestore(projectFile, restoreSettings);
 
-//   var settings = new DotNetCorePublishSettings {
-//     OutputDirectory = publishFolder,
-//     Configuration = configuration.BuildConfiguration,
-//     MSBuildSettings = buildSettings,
-//     NoRestore = true
-//   };
+  var settings = new DotNetCorePublishSettings {
+    OutputDirectory = publishFolder,
+    Configuration = configuration.BuildConfiguration,
+    MSBuildSettings = buildSettings,
+    NoRestore = true
+  };
 
-//   DotNetCorePublish(projectFile, settings);
-// });
+  DotNetCorePublish(projectFile, settings);
+});
 
 Task("Publish-FrontEnd-Project").Does(() => {
   var source = $"{configuration.ProjectFolder}\\FrontEnd\\**\\*";

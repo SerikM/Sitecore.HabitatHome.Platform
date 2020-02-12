@@ -9,36 +9,27 @@
 #load "local:?path=CakeScripts/xml-helpers.cake"
 
 var target = Argument<string>("Target", "Default");
-var deploymentTarget = Argument<string>("DeploymentTarget", "IIS"); // Possible values are 'IIS', 'Docker' and 'DockerBuild'
 var configuration = new Configuration();
 var cakeConsole = new CakeConsole();
 var configJsonFile = "cake-config.json";
+var buildDockerImageScript = $"./scripts/Docker/BuildDockerImage.ps1";
 var unicornSyncScript = $"./scripts/Unicorn/Sync.ps1";
-bool syncUnicorn = true;
+var rebuildIndex = true;
 /*===============================================
 ================ MAIN TASKS =====================
 ===============================================*/
 
 Setup(context =>
 {
-  cakeConsole.ForegroundColor = ConsoleColor.Yellow;
-
-  var configFile = new FilePath(configJsonFile);
-  configuration = DeserializeJsonFromFile<Configuration>(configFile);
-  configuration.SolutionFile =  $"{configuration.ProjectFolder}\\{configuration.SolutionName}";
-  configuration.PublishWebFolder = $"{configuration.ProjectFolder}\\data\\cm\\src";
-  configuration.PublishxConnectFolder = $"{configuration.ProjectFolder}\\data\\xconnect\\src";
-
-  if (deploymentTarget.Contains("Docker"))  {
+    cakeConsole.ForegroundColor = ConsoleColor.Yellow;
+    var configFile = new FilePath(configJsonFile);
+    configuration = DeserializeJsonFromFile<Configuration>(configFile);
+    configuration.SolutionFile =  $"{configuration.ProjectFolder}\\{configuration.SolutionName}";
     configuration.UnicornSerializationFolder = "c:\\unicorn"; // This maps to the container's volume setting (see docker-compose.yml)
-  }
-
-  if (deploymentTarget == "Docker") {
     configuration.WebsiteRoot = $"{configuration.ProjectFolder}\\data\\cm\\src\\";
     configuration.XConnectRoot = $"{configuration.ProjectFolder}\\data\\xconnect\\src\\";
-    configuration.PublishxConnectIndexWorkerFolder = $"{configuration.ProjectFolder}\\data\\xconnect-indexworker\\src\\";
+    configuration.XConnectIndexWorkerRoot = $"{configuration.ProjectFolder}\\data\\xconnect-indexworker\\src\\";
     configuration.InstanceUrl = "http://127.0.0.1:44001";     // This is based on the CM container's settings (see docker-compose.yml)
-  }
 });
 
 /*===============================================
@@ -46,28 +37,22 @@ Setup(context =>
 ===============================================*/
 Task("Default")
  .IsDependentOn("Base-PreBuild")
- .IsDependentOn("Base-Publish")
- .IsDependentOn("Post-Deploy");
+ .IsDependentOn("Publish-FrontEnd-Project")
+ .IsDependentOn("Build-Solution")
+ .IsDependentOn("Publish-Projects-To-Web")
+ .IsDependentOn("Sync-Unicorn")
+ .IsDependentOn("UpdateDockerImages");
+ //.IsDependentOn("Post-Deploy");
 
-Task("Base-Publish")
- //.IsDependentOn("Publish-FrontEnd-Project")
- .IsDependentOn("Publish-All-Projects")
- .IsDependentOn("Publish-xConnect-Project")
- .IsDependentOn("Publish-xConnect-Project-IndexWorker");
 
-Task("Post-Deploy")
-   .IsDependentOn("Sync-Unicorn");
+// Task("Post-Deploy")
+
 // .IsDependentOn("Deploy-EXM-Campaigns")
-// .IsDependentOn("Deploy-Marketing-Definitions")
+//.IsDependentOn("Deploy-Marketing-Definitions")
 // .IsDependentOn("Rebuild-Core-Index")
 // .IsDependentOn("Rebuild-Master-Index")
 // .IsDependentOn("Rebuild-Web-Index")
 // .IsDependentOn("Rebuild-Test-Index");
-
-
-// Task("Quick-Deploy")
-// .IsDependentOn("Base-PreBuild")
-// .IsDependentOn("Base-Publish");
 
 
 Task("Base-PreBuild").Does(() => {
@@ -79,59 +64,8 @@ Task("Base-PreBuild").Does(() => {
 /*===============================================
 =============== Build and publish Tasks =========
 ===============================================*/
-Task("Publish-All-Projects")
- .IsDependentOn("Build-Solution")
- .IsDependentOn("Publish-Foundation-Projects")
- .IsDependentOn("Publish-Feature-Projects")
- .IsDependentOn("Publish-Project-Projects");
-
 Task("Build-Solution").Does(() => {
   MSBuild(configuration.SolutionFile, cfg => InitializeMSBuildSettings(cfg));
-});
-
-Task("Publish-Foundation-Projects").Does(() => {
-   var tempFolder = configuration.PublishTempFolder;
-   EnsureDirectoryExists(tempFolder);
-   PublishProjects(configuration.FoundationSrcFolder, tempFolder);
-   var tempFolderPath = tempFolder.ToLower().Replace("\\", "/");
-   var ignoredFiles = new string[] {$"{tempFolderPath}/web.config"};
-   var contentFiles = GetFiles($"{tempFolder}\\**\\*");
-   if(contentFiles.Any()){
-     var filteredFiles = contentFiles.Where(file => !ignoredFiles.Contains(file.FullPath.ToLower()));
-     CopyFiles(filteredFiles, configuration.WebsiteRoot, preserveFolderStructure: true);
-   }
-   
-});
-
-Task("Publish-Project-Projects").Does(() => {
-  var global = $"{configuration.ProjectSrcFolder}\\Global";
-  var habitatHome = $"{configuration.ProjectSrcFolder}\\HabitatHome";
-  var tempFolder = configuration.PublishTempFolder;
-  EnsureDirectoryExists(tempFolder);
-  PublishProjects(global, tempFolder);
-  PublishProjects(habitatHome, tempFolder);
-  var tempFolderPath = tempFolder.ToLower().Replace("\\", "/");
-  var ignoredFiles = new string[] {$"{tempFolderPath}/web.config"};
-   var contentFiles = GetFiles($"{tempFolder}\\**\\*");
-   if(contentFiles.Any()){
-     var filteredFiles = contentFiles.Where(file => !ignoredFiles.Contains(file.FullPath.ToLower()));
-     CopyFiles(filteredFiles, configuration.WebsiteRoot, preserveFolderStructure: true);
-   }
- 
-});
-
-Task("Publish-Feature-Projects").Does(() => {
-   var tempFolder = configuration.PublishTempFolder;
-   EnsureDirectoryExists(tempFolder);
-   PublishProjects(configuration.FeatureSrcFolder, tempFolder);
-   var tempFolderPath = tempFolder.ToLower().Replace("\\", "/");
-   var ignoredFiles = new string[] {$"{tempFolderPath}/web.config"};
-   var contentFiles = GetFiles($"{tempFolder}\\**\\*");
-   if(contentFiles.Any()){
-     var filteredFiles = contentFiles.Where(file => !ignoredFiles.Contains(file.FullPath.ToLower()));
-     CopyFiles(filteredFiles, configuration.WebsiteRoot, preserveFolderStructure: true);
-   }
-   
 });
 
 Task("Publish-FrontEnd-Project").Does(() => {
@@ -146,26 +80,50 @@ Task("Publish-FrontEnd-Project").Does(() => {
   CopyFiles(contentFiles, destination, preserveFolderStructure: true);
 });
 
-Task("Publish-xConnect-Project").Does(() => {
-  var xConnectProject = $"{configuration.ProjectSrcFolder}\\xConnect";
-  var destination = configuration.XConnectRoot;
-  PublishProjects(xConnectProject, destination);
+Task("Publish-Projects-To-Web").Does(() => {
+  PublishWebProjects(configuration, configuration.FeatureSrcFolder, configuration.WebsiteRoot); 
+  PublishWebProjects(configuration, configuration.FoundationSrcFolder, configuration.WebsiteRoot);
+  PublishWebProjects(configuration, $"{configuration.ProjectSrcFolder}\\Global", configuration.WebsiteRoot); 
+  PublishWebProjects(configuration, $"{configuration.ProjectSrcFolder}\\HabitatHome", configuration.WebsiteRoot);   
+  PublishProjects($"{configuration.ProjectSrcFolder}\\xConnect", configuration.XConnectRoot);
+  PublishProjects($"{configuration.ProjectSrcFolder}\\xConnect", configuration.XConnectIndexWorkerRoot);
 });
 
-Task("Publish-xConnect-Project-IndexWorker").Does(() => {
-  var xConnectProject = $"{configuration.ProjectSrcFolder}\\xConnect";
-  var destination = configuration.PublishxConnectIndexWorkerFolder;
-  PublishProjects(xConnectProject, destination);
+/*=========================================
+==============build a new docker image=====
+===========================================*/
+Task("UpdateDockerImages")
+.Does(() => {
+   var publishWebFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\cm\\Data";
+    // configuration.PublishDataFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\sqldev\\Data";
+   var publishxConnectFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\xconnect\\Data";
+   var publishxConnectIndexWorkerFolder = $"{configuration.ProjectFolder}\\docker\\images\\windows\\xconnect-indexworker\\Data";
+   var xconnectSourceFolder = $"{configuration.ProjectSrcFolder}\\xConnect";
+
+  PublishWebProjects(configuration, configuration.FeatureSrcFolder, publishWebFolder); 
+  PublishWebProjects(configuration, configuration.FoundationSrcFolder, publishWebFolder);
+  PublishWebProjects(configuration, $"{configuration.ProjectSrcFolder}\\Global", publishWebFolder); 
+  PublishWebProjects(configuration, $"{configuration.ProjectSrcFolder}\\HabitatHome", publishWebFolder);   
+  PublishProjects(xconnectSourceFolder, publishxConnectFolder);
+  PublishProjects(xconnectSourceFolder, publishxConnectIndexWorkerFolder);
+
+  StartPowershellFile(buildDockerImageScript, new PowershellSettings()
+            .SetFormatOutput()
+            .SetLogOutput()
+            .WithArguments(args => {
+              args
+              .Append("baseImageName", configuration.CmBaseImageName)
+              .Append("tag", configuration.CmImageTagName)
+              .Append("buildContext", configuration.BuildContext);
+  }));
+
 });
-
-
 /*==============================================
 =============== Unicorn Tasks ===================
 ===============================================*/
 Task("Sync-Unicorn")
 .IsDependentOn("Turn-On-Unicorn")
 .IsDependentOn("Modify-Unicorn-Source-Folder")
-.WithCriteria(() => syncUnicorn)
 .Does(() => {
   var unicornUrl = configuration.InstanceUrl + "/unicorn.aspx";
   Information("Sync Unicorn items from url: " + unicornUrl);
@@ -184,7 +142,6 @@ Task("Sync-Unicorn")
 });
 
 Task("Turn-On-Unicorn")
-.WithCriteria(() => (syncUnicorn))
 .Does(() => {
   var webConfigFile = File($"{configuration.WebsiteRoot}/app_config/include/project/global.website.config");
   var xmlSetting = new XmlPokeSettings {
@@ -195,7 +152,6 @@ Task("Turn-On-Unicorn")
   var unicornAppSettingXPath = "configuration/sitecore/settings/setting[@name='unicorn']";
   XmlPoke(webConfigFile, unicornAppSettingXPath, "Enabled", xmlSetting);
 });
-
 
 Task("Modify-Unicorn-Source-Folder")
 .Does(() => {
@@ -210,5 +166,31 @@ Task("Modify-Unicorn-Source-Folder")
   };
   XmlPoke(zzzDevSettingsFile, sourceFolderXPath, directoryPath, xmlSetting);
 });
+
+/*==============================================
+=============== Index Rebuild Tasks ============
+===============================================*/
+Task("Rebuild-Core-Index")
+.WithCriteria(() => rebuildIndex)
+.Does(() => {
+  RebuildIndex("sitecore_core_index");
+});
+
+Task("Rebuild-Master-Index")
+.WithCriteria(() => rebuildIndex)
+.Does(() => {
+  RebuildIndex("sitecore_master_index");
+});
+
+Task("Rebuild-Web-Index")
+.WithCriteria(() => rebuildIndex).Does(() => {
+  RebuildIndex("sitecore_web_index");
+});
+
+Task("Rebuild-Test-Index")
+.WithCriteria(() => rebuildIndex).Does(() => {
+  RebuildIndex("sitecore_testing_index");
+});
+
 
 RunTarget(target);

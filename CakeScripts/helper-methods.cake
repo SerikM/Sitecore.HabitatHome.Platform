@@ -10,6 +10,10 @@ public class Configuration
 
   public string WebsiteRoot {get;set;}
   public string XConnectRoot {get;set;}
+  public string XConnectIndexWorkerRoot {get;set;}
+  public string	CmBaseImageName {get;set;}
+	public string CmImageTagName {get;set;}
+  public string	BuildContext {get;set;}
   public string InstanceUrl {get;set;}
   public string SolutionName {get;set;}
   public string ProjectFolder {get;set;}
@@ -38,41 +42,13 @@ public class Configuration
   public string FoundationSrcFolder => $"{SourceFolder}\\Foundation";
   public string FeatureSrcFolder => $"{SourceFolder}\\Feature";
   public string ProjectSrcFolder => $"{SourceFolder}\\Project";
-  public string PublishWebFolder {get;set;}
-  public string PublishxConnectFolder {get;set;}
-  public string PublishxConnectIndexWorkerFolder {get;set;}
-  public string PublishDataFolder {get;set;}
-
   public MSBuildToolVersion MSBuildToolVersion => this._msBuildToolVersion;
   public string BuildTargets => this.RunCleanBuilds ? "Clean;Build" : "Build";
 }
 
 public void PrintHeader(ConsoleColor foregroundColor) {
   cakeConsole.ForegroundColor = foregroundColor;
-  cakeConsole.WriteLine("     ");
-  cakeConsole.WriteLine("     ");
-  cakeConsole.WriteLine(@"   ) )       /\                  ");
-  cakeConsole.WriteLine(@"  =====     /  \                 ");
-  cakeConsole.WriteLine(@" _|___|____/ __ \____________    ");
-  cakeConsole.WriteLine(@"|:::::::::/ ==== \:::::::::::|   ");
-  cakeConsole.WriteLine(@"|:::::::::/ ====  \::::::::::|   ");
-  cakeConsole.WriteLine(@"|::::::::/__________\:::::::::|  ");
-  cakeConsole.WriteLine(@"|_________|  ____  |_________|                                                               ");
-  cakeConsole.WriteLine(@"| ______  | / || \ | _______ |            _   _       _     _ _        _     _   _");
-  cakeConsole.WriteLine(@"||  |   | | ====== ||   |   ||           | | | |     | |   (_) |      | |   | | | |");
-  cakeConsole.WriteLine(@"||--+---| | |    | ||---+---||           | |_| | __ _| |__  _| |_ __ _| |_  | |_| | ___  _ __ ___   ___");
-  cakeConsole.WriteLine(@"||__|___| | |   o| ||___|___||           |  _  |/ _` | '_ \| | __/ _` | __| |  _  |/ _ \| '_ ` _ \ / _ \");
-  cakeConsole.WriteLine(@"|======== | |____| |=========|           | | | | (_| | |_) | | || (_| | |_  | | | | (_) | | | | | |  __/");
-  cakeConsole.WriteLine(@"(^^-^^^^^- |______|-^^^--^^^)            \_| |_/\__,_|_.__/|_|\__\__,_|\__| \_| |_/\___/|_| |_| |_|\___|");
-  cakeConsole.WriteLine(@"(,, , ,, , |______|,,,, ,, ,)");
-  cakeConsole.WriteLine(@"','',,,,'  |______|,,,',',;;");
-  cakeConsole.WriteLine(@"     ");
-  cakeConsole.WriteLine(@"     ");
-  cakeConsole.WriteLine(@" --------------------  ------------------");
-  cakeConsole.WriteLine("   " + "The Habitat Home source code, tools and processes are examples of Sitecore Features.");
-  cakeConsole.WriteLine("   " + "Habitat Home is not supported by Sitecore and should be used at your own risk.");
-  cakeConsole.WriteLine("     ");
-  cakeConsole.WriteLine("     ");
+  cakeConsole.WriteLine("starting deployment");
   cakeConsole.ResetColor();
 }
 
@@ -95,10 +71,21 @@ public void PublishProjects(string rootFolder, string publishRoot)
   }
 }
 
-public void PublishCoreProjects(string rootFolder, string publishRoot)
+public void PublishWebProjects(Configuration configuration, string source, string destination)
 {
-
+   var tempFolder = configuration.PublishTempFolder;
+   EnsureDirectoryExists(tempFolder);
+   PublishProjects(source, tempFolder);
+   var tempFolderPath = tempFolder.ToLower().Replace("\\", "/");
+   var ignoredFiles = new string[] {$"{tempFolderPath}/web.config"};
+   var contentFiles = GetFiles($"{tempFolder}\\**\\*");
+   if(contentFiles.Any()){
+     var filteredFiles = contentFiles.Where(file => !ignoredFiles.Contains(file.FullPath.ToLower()));
+     CopyFiles(filteredFiles, destination, preserveFolderStructure: true);
+   }
 }
+
+
 
 public FilePathCollection GetTransformFiles(string rootFolder)
 {

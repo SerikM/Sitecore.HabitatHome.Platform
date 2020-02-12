@@ -2,6 +2,17 @@ version: '2.4'
 
 services:
 
+  monitor:
+    image: tobiasfenster/windows-hosts-writer:1809
+    volumes:
+      - C:/Windows/System32/drivers/etc:C:\driversetc
+      - source: \\.\pipe\docker_engine
+        target: \\.\pipe\docker_engine
+        type: npipe
+    environment:
+      - network=sxabysoft_default 
+      - debug='true'
+
   sql:
     image: ${REGISTRY}sitecore-xp-sxa-sqldev:${SITECORE_VERSION}-windowsservercore-${WINDOWSSERVERCORE_VERSION}
     volumes:
@@ -12,12 +23,13 @@ services:
     environment:
       SA_PASSWORD: ${SQL_SA_PASSWORD}
       ACCEPT_EULA: "Y"
+ 
 
   solr:
     image: ${REGISTRY}sitecore-xp-sxa-solr:${SITECORE_VERSION}-nanoserver-${NANOSERVER_VERSION}
     volumes:
       - .\data\solr:C:\Data
-    mem_limit: 1GB
+    mem_limit: 1GB  
     ports:
       - "44011:8983"
 
@@ -129,6 +141,7 @@ services:
       - .\data\cm\src:C:\src
       - .\items:c:\unicorn
       - c:\sitecore_license:c:\src\App_Data
+      - .\logs:c:\inetpub\wwwroot\App_Data\logs
     ports:
       - "44001:80"
     environment:
@@ -155,6 +168,7 @@ services:
       SITECORE_APPSETTINGS_TELERIK.ASYNCUPLOAD.CONFIGURATIONENCRYPTIONKEY: ${TELERIK_ENCRYPTION_KEY}
       SITECORE_APPSETTINGS_TELERIK.UPLOAD.CONFIGURATIONHASHKEY: ${TELERIK_ENCRYPTION_KEY}
       SITECORE_APPSETTINGS_TELERIK.WEB.UI.DIALOGPARAMETERSENCRYPTIONKEY: ${TELERIK_ENCRYPTION_KEY}
+    hostname: "bysoft.local"  
     depends_on:
       - sql
       - solr

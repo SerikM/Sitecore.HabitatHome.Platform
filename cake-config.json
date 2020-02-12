@@ -1,6 +1,7 @@
 {
-	"WebsiteRoot": "C:\\Inetpub\\wwwroot\\xp1.cm",
+	"WebsiteRoot": "C:\\Inetpub\\wwwroot\\xp1.cm\\",
 	"XConnectRoot": "C:\\inetpub\\wwwroot\\xp1.collection\\",
+	"XConnectIndexWorkerRoot": "C:\\inetpub\\wwwroot\\xp1.search\\",
 	"InstanceUrl": "https://xp1.cm",
 	"UnicornSerializationFolder": "C:\\gitrepos\\SxaBysoft\\items",
 	"SolutionName": "SxaBysoft.sln",
@@ -8,13 +9,13 @@
 	"BuildConfiguration": "Debug",
 	"BuildToolVersions": "VS2019",
 	"RunCleanBuilds": false,
-	"MessageStatisticsApiKey": "97CC4FC13A814081BF6961A3E2128C5B",
-	"MarketingDefinitionsApiKey": "DF7D20E837254C6FBFA2B854C295CB61",
 	"version": "9.3.0",
 	"CDN": "false",
-	"SitecoreAzureToolkitPath": "C:\\stc\\Sitecore Azure Toolkit 2.4.0",
 	"FeatureSrcFolder": "C:\\gitrepos\\SxaBysoft\\src\\Feature",
 	"ProjectSrcFolder": "C:\\gitrepos\\SxaBysoft\\src\\Project",
 	"FoundationSrcFolder": "C:\\gitrepos\\SxaBysoft\\src\\Foundation",
-	"PublishTempFolder": "C:\\deployTemp"
+	"PublishTempFolder": "C:\\deployTemp",
+	"CmBaseImageName": "sitecore-xp-sxa-standalone:9.3.0-windowsservercore-ltsc2019",
+	"CmImageTagName": "sxabysoft-xp-sxa-cm:9.3.0-windowsservercore-ltsc2019",
+	"BuildContext": ".\\docker\\images\\windows\\cm"
 }
